@@ -6,5 +6,5 @@
 [Optimisation web - Megazord](https://smnarnold.com/projets/megazord)
 
 ### Équipe
-Michaël Simard BLEU
-Éloise Gagné  ROUGE
+Michaël Simard BLEU🔵 </br>
+Éloise Gagné  ROUGE🔴
