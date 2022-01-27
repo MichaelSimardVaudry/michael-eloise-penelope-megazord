@@ -5,7 +5,6 @@
 
 [Optimisation web - Megazord](https://smnarnold.com/projets/megazord)
 
-#### Équipe
-michael simard
-Éloise Gagné
-Ajoutez un sous-titre nommé "Équipe", ainsi qu'une liste indiquant quel développeur est associé à quel point de couleur.
+### Équipe
+Michaël Simard BLEU
+Éloise Gagné  ROUGE
