@@ -1,3 +1,8 @@
+@font-face {
+  src: url("/styles/font/TheMedic-Regular.ttf") format("truetype");
+  font-family: "TheMedic";
+}
+
 :root {
   --Blackblue: #0c1618;
   --greenBlue: #004643;
@@ -5,7 +10,22 @@
   --gold: #d1ac00;
   --pink: #f6be9a;
   --textnormal:font-family: "Sorts Mill Goudy", serif;;
+  --textstyle:font-family: "TheMedic";;
 }
-/*
-https://www.dafont.com/forum/read/392058/bring-me-the-horizon-2019-font
-*/
+
+body{
+  font-size: 20px;
+}
+body h1{
+  font-family: var(--textstyle);
+  font-size: 25px;
+}
+body h2{
+  font-family: var(--textnormal);
+  font-size: 20px;
+}
+body h3{
+  font-family: var(--textnormal);
+  font-size: 20px;
+}
+
