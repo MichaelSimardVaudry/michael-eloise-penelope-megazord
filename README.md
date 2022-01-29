@@ -8,6 +8,6 @@
 ### Équipe
 Michaël Simard BLEU🔵 </br>
 Éloïse Gagné  ROUGE🔴 </br>
-Pénélope Morrisson🟢
+Pénélope Morrisson VERT🟢
 
 [coolors](https://coolors.co/0c1618-004643-faf4d3-d1ac00-f6be9a)
