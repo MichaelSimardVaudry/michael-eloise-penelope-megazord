@@ -1,0 +1,6 @@
+@media screen and (min-width: 860px) { 
+    body { background: rgba(9, 11, 20, 0.986); }
+  }
+  @media screen and (max-width: 860px) { 
+    body { background: rgb(17, 0, 0); }
+  }

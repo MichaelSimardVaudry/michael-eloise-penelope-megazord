@@ -29,10 +29,11 @@
       integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
       crossorigin="anonymous"
     ></script>
-
+    <script src="scripts/billboard.js"></script>
     <script src="scripts/discography.js"></script>
     <script src="scripts/home.js"></script>
     <script src="scripts/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/billboard.css" />
     <link rel="stylesheet" type="text/css" href="styles/discography.css" />
     <link rel="stylesheet" type="text/css" href="styles/home.css" />
     <link rel="stylesheet" type="text/css" href="styles/main.css" />
@@ -43,6 +44,7 @@
   </head>
   <body style="height: 100vh; width: 100vh">
     <header>
+      <img src="img/logo_1.jpg" alt="Logo">
       <h1>Bring me the horizon</h1>
    
     </header>
@@ -57,7 +59,10 @@
       
       <section class="hero" style="height: 100%; width: 100%">
     <h2>Palmarès</h2>
-      <img src="img/groupe_rouge.jpeg" >
+    <picture>
+      <source srcset="img/groupe_rouge_2.jpg" media="(min-width: 860px">
+      <img src="img/membre.jpg">
+    </picture>
       </section>
       
     </main>
