@@ -1,3 +1,4 @@
+
 .hero {
     @media screen (orientation: landscape) {
         height: 56.25%;
@@ -5,5 +6,5 @@
 }
 
 .heroPicture {
-    object-fit: contain;
+    object-fit: fill;
 }
