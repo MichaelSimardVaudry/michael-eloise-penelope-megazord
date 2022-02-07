@@ -1,8 +1,24 @@
+body {
+  background-color: black;
+}
 .hero {
+  overflow: hidden;
   @media screen (orientation: landscape) {
     height: 56.25%;
   }
 }
-.heroPicture {
+picture img {
+  width: 100%;
   object-fit: contain;
+}
+picture source {
+  width: 100%;
+  object-fit: contain;
+}
+.coverHero {
+  position: absolute;
+  top: 0;
+  background-image: linear-gradient(#e40f7a00, #04ac5883);
+  height: 100%;
+  width: 100%;
 }

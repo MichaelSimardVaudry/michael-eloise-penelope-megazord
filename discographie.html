@@ -39,9 +39,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body style="height: 100vh; width: 100vh">
-    <section class="hero" style="height: 100%; width: 100%">
-      <picture class="heroPicture img-fluid"> </picture>
+  <body style="height: 100%; width: 100%">
+    <section class="hero" style="height: 100vh; width: 100vh">
+      <picture class="heroPicture">
+        <source srcset="img\sempiternal.jpg" media="(min-width: 1000px)" />
+        <img
+          src="img/BMTH-Post-Human-Survival-Horror.jpg"
+          alt="impossible d'afficher l'image"
+        />
+      </picture>
+      <div class="coverHero"></div>
+      <div class="container">
+        <div class="row justify-content-start justify-items-end">
+          <div class="col-12 col-sm-8">
+            <div class="textHero"></div>
+          </div>
+        </div>
+      </div>
     </section>
   </body>
 </html>
