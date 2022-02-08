@@ -1,24 +1,38 @@
 body {
   background-color: black;
+  width: 100vh;
 }
 .hero {
   overflow: hidden;
+  width: 100%;
   @media screen (orientation: landscape) {
     height: 56.25%;
   }
 }
-picture img {
-  width: 100%;
-  object-fit: contain;
+.heroPicture {
+  width: 100vh;
 }
-picture source {
+.heroPicture img {
+  object-fit: cover;
+}
+.heroPicture source {
   width: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 .coverHero {
   position: absolute;
   top: 0;
-  background-image: linear-gradient(#e40f7a00, #04ac5883);
+  background-image: linear-gradient(rgba(0, 0, 0, 0), var(--greenBlue));
   height: 100%;
   width: 100%;
+}
+.textHero {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 10px;
+}
+button {
+  border: none;
+  padding: 10px 30px;
 }
