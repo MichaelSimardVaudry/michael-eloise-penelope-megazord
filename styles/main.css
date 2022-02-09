@@ -1,6 +1,8 @@
 @font-face {
+  font-family: "fontStyle";
   src: url("/styles/font/TheMedic-Regular.ttf") format("truetype");
-  font-family: "TheMedic";
+  src: url("/styles/font/TheMedic-Regular.otf") format("opentype");
+  src: url("/styles/font/TheMedic-Regular.woff") format("woff");
 }
 
 :root {
@@ -10,7 +12,7 @@
   --gold: #d1ac00;
   --pink: #f6be9a;
   --textnormal:font-family: "Sorts Mill Goudy", serif;;
-  --textstyle:font-family: "TheMedic";;
+  --textstyle:font-family: "fontStyle";
 }
 
 body{
@@ -18,14 +20,17 @@ body{
 }
 body h1{
   font-family: var(--textstyle);
+  color: var(--blackblue);
   font-size: 25px;
 }
 body h2{
   font-family: var(--textnormal);
+  color: var(--milk);
   font-size: 20px;
 }
 body h3{
   font-family: var(--textnormal);
+  color: var(--milk);
   font-size: 20px;
 }
 
