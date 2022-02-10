@@ -7,11 +7,11 @@
 }
 
 :root {
-  --Blackblue: #0b090a;
-  --greenBlue: #161a1d;
-  --milk: #660708;
-  --gold: #a4161a;
-  --pink: #ba181b;
+  --darkDark: #0b090a;
+  --lightDark: #161a1d;
+  --darkRed: #660708;
+  --mediumDarkRed: #a4161a;
+  --mediumRed: #ba181b;
   --lightRed:#e5383b;
   --darkGrey:#b1a7a6;
   --mediumgrey:#d3d3d3;
