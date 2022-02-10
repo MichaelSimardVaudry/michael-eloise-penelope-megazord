@@ -25,7 +25,7 @@ position: absolute;
 
 .title{
     position: absolute;
-    font-size: 450px;
+    font-size: 50px;
     color:white;
     left:20%;
     top:40%;
@@ -41,11 +41,11 @@ position: absolute;
     background-color: #f44336; 
   border-radius: 500px;
   opacity: 85%;
-  padding: 15px 300px;
+  padding: 15px 30px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 80px;
+  font-size: 30px;
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
@@ -65,3 +65,10 @@ position: absolute;
     color: white;
   }
   
+  .navbar {
+    background-color: var(--lightDark);
+  }
+
+  .logo{
+    width: 50px;
+  }
