@@ -1,6 +1,7 @@
 body {
+  box-sizing: border-box;
   background-color: black;
-  width: 100vh;
+  width: 100%;
 }
 .hero {
   overflow: hidden;
@@ -9,15 +10,13 @@ body {
     height: 56.25%;
   }
 }
-.heroPicture {
-  width: 100vh;
-}
-.heroPicture img {
-  object-fit: cover;
-}
-.heroPicture source {
+img {
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
+}
+.heroPicture {
+  width: 100%;
+  height: 150%;
 }
 .coverHero {
   position: absolute;
@@ -33,6 +32,11 @@ body {
   margin: 10px;
 }
 button {
+  font-family: var(--textNormal);
   border: none;
   padding: 10px 30px;
+  background-color: var(--pink);
+}
+button:active {
+  background-color: var(--gold);
 }

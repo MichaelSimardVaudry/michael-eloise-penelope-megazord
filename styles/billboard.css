@@ -15,7 +15,9 @@
   position: absolute;
 }
 
+ h2 {font-family: 'Rowdies', cursive; }
 
+.titre {font-family: 'IM Fell English SC', serif;}
 
 .hero  {
   position: relative;
@@ -42,6 +44,7 @@
 
 .coverHero {
   position: absolute;
+  top: 0;
   background-image: linear-gradient(rgba(0, 0, 0, 0), var(--greenBlue));
   height: 100%;
   width: 100%;

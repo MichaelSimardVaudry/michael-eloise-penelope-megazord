@@ -1,14 +1,49 @@
+
 @media screen and (min-width: 1000px){
     header{ height:  56.25%;}
 }
 
 .hero {
-
+    position: relative;
     width: 100%;
+    height: 100%;
 }
 
 .hero_picture {
-    object-fit: cover;
     width: 100%;
     height: 100%;
+}
+
+.contraste {
+position: absolute;
+  top: 0;
+  background-color: darkred;
+  height: 100%;
+  width: 100%;
+  opacity: 20%;
+}
+
+.title{
+    position: absolute;
+    font-size: 450px;
+    color:white;
+    left:20%;
+    top:40%;
+}
+
+.nav {
+    position: absolute;
+    top: 0;
+}
+
+.btn_more {
+    position: absolute;
+    border: none;
+    padding: 10px 200px;
+    font-size: 100px;
+    top:58%;
+    left:45%;
+    
+    
+    
 }
