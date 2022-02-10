@@ -1,23 +1,41 @@
 @media screen and (min-width: 1000px) { 
     body { background: rgba(9, 11, 20, 0.986); }
   }
-  @media screen and (max-width: 1000px) { 
-    body { background: rgb(17, 0, 0); }
-  }
+  
 
 
  h2 {font-family: 'Rowdies', cursive; }
 
 .titre {font-family: 'IM Fell English SC', serif;}
 
-picture{
+.hero {
+  overflow: hidden;
   width: 100%;
-  height: 100%;
-  display:block;
-  background-color: rgb(255, 250, 240);
+  @media screen (orientation: landscape) {
+    height: 56.25%;
+  }
 }
-img{
-  width: 100vh;
-  height: 100vh;
-  object-fit: contain;
+.heropic{
+  height: 100%;  width: 100vh;
+}
+.heropic img{
+  object-fit: cover;
+}
+.heropic source{
+  width: 100%;
+  object-fit: cover;
+}
+
+.coverHero {
+  position: absolute;
+  top: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), var(--greenBlue));
+  height: 100%;
+  width: 100%;
+}
+.textHero {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 10px;
 }
