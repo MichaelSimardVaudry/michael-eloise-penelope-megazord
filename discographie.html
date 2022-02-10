@@ -28,10 +28,11 @@
       integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
       crossorigin="anonymous"
     ></script>
-    <script src="scripts/discography.js"></script>
     <script src="scripts/main.js"></script>
-    <link rel="stylesheet" type="text/css" href="styles/discography.css" />
+    <script src="scripts/discography.js"></script>
+
     <link rel="stylesheet" type="text/css" href="styles/main.css" />
+    <link rel="stylesheet" type="text/css" href="styles/discography.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -62,9 +63,25 @@
         </div>
       </div>
     </section>
-    <nav class="navbar navbar-dark">
+    <nav class="navbar navbar-dark navbar-expand-sm">
       <div class="container">
-        <a class="navbar-brand" href="index.html"><img class="logo" src="/img/logo.svg" alt="logo"></a><a href="page-1.html" class="btn">discography</a><a href="=index.html" class="btn">home</a><a href="palmares.html" class="btn">palmares</a>
+        <a class="navbar-brand" href="index.html"><img class="logo" src="/img/logo.svg" alt="logo"></a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Affichage/masquage de la navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="mainNav" class="collapse navbar-collapse">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="=/index" class="nav-link">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a href="/discographie.html" class="nav-link active">DISCOGRAPHY</a>
+            </li>
+            <li class="nav-item">
+              <a href="/palmares.html" class="nav-link">PALMARES</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
     
