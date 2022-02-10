@@ -1,4 +1,4 @@
-@media screen and (min-width: 1000px),(orientation: landscape){ 
+@media screen and (min-width: 1000px),(orientation: landscape),(min-aspect-ratio: 16/9){ 
     body { background:rgb(12, 22, 24); height: 56.25%;}
   }
   
