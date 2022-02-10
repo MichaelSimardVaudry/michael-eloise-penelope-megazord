@@ -29,16 +29,16 @@ position: absolute;
     color:white;
     left:20%;
     top:40%;
+    font-family: var(--textstyle);
 }
 
-.nav {
-    position: absolute;
-    top: 0;
+.text {
+  font-family: var(--textnormal);
 }
 
 .btn_more {
-    position: absolute;
-    background-color: #f44336; 
+  position: absolute;
+  background-color: #f44336; 
   border-radius: 500px;
   opacity: 85%;
   padding: 15px 30px;
@@ -49,8 +49,8 @@ position: absolute;
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
-    top:58%;
-    left:43%;
+  top:58%;
+  left:43%;
     
 }
 
