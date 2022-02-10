@@ -1,5 +1,5 @@
 @media screen and (min-width: 1000px),(orientation: landscape){ 
-    body { background:rgb(12, 22, 24); }
+    body { background:rgb(12, 22, 24); height: 56.25%;}
   }
   
   @media (max-width: 600px) { 
@@ -23,12 +23,13 @@
   position: relative;
   overflow: hidden;
   width: 100vh;
-  max-height: auto;
+
 }
  .cadrepic .hero .heropic{
   height: 100%;  
   width: 100vh;
-  background-size: auto;
+  background-size: auto
+  
 }
 .heropic img{
   position: relative;
@@ -40,6 +41,8 @@
   position: relative;
   width: 100%;
   object-fit: cover;
+  min-height: 56.25%;
+  display:block;
 }
 
 .coverHero {
