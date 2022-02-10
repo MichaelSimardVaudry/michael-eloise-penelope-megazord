@@ -1,9 +1,10 @@
-@media screen and (min-width: 1000px),(orientation: landscape){ 
-    body { background:rgb(12, 22, 24); height: 56.25%;}
+@media  (min-width: 1000px),  screen and (orientation: landscape){ 
+    body { background:rgb(12, 22, 24);} .img{background-image:-o-linear-gradient(monochrome)
+    }
   }
-  
-  @media (max-width: 600px) { 
-    .section { width: 100%; } 
+ 
+  @media screen and (min-aspect-ratio: 16/9), (Breakpoint) { 
+    body { width:100%;max-width: 100%;}
   }
  h2 {font-family: 'Rowdies', cursive; }
 
@@ -23,11 +24,11 @@
   position: relative;
   overflow: hidden;
   width: 100vh;
-
+ 
 }
  .cadrepic .hero .heropic{
   height: 100%;  
-  width: 100vh;
+  width: 100%;
   background-size: auto
   
 }
@@ -35,7 +36,7 @@
   position: relative;
   width: 100%;
   object-fit: cover;
-  max-height: min-content;
+  min-height:auto;
 }
 .heropic source{
   position: relative;
@@ -45,7 +46,7 @@
   display:block;
 }
 
-.coverHero {
+.coverHero  {
   position: absolute;
   top: 0;
   background-image: linear-gradient(rgba(0, 0, 0, 0), var(--greenBlue));
