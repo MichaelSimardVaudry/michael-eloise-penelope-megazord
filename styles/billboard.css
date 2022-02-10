@@ -1,29 +1,48 @@
-@media screen and (min-width: 1000px) { 
-    body { background: rgba(9, 11, 20, 0.986); }
+@media screen and (min-width: 1000px),(orientation: landscape){ 
+    body { background:rgb(12, 22, 24); height: 56.25%;}
   }
   
+  @media (max-width: 600px) { 
+    .section { width: 100%; } 
+  }
+ h2 {font-family: 'Rowdies', cursive; }
 
+.titre {
+  font-family: 'IM Fell English SC', serif;
+}
+
+.cadrepic{
+  position: absolute;
+}
 
  h2 {font-family: 'Rowdies', cursive; }
 
 .titre {font-family: 'IM Fell English SC', serif;}
 
-.hero {
+.hero  {
+  position: relative;
   overflow: hidden;
-  width: 100%;
-  @media screen (orientation: landscape) {
-    height: 56.25%;
-  }
+  width: 100vh;
+
 }
-.heropic{
-  height: 100%;  width: 100vh;
+ .cadrepic .hero .heropic{
+  height: 100%;  
+  width: 100vh;
+  background-size: auto
+  
 }
 .heropic img{
-  object-fit: cover;
-}
-.heropic source{
+  position: relative;
   width: 100%;
   object-fit: cover;
+  max-height: min-content;
+}
+.heropic source{
+  position: relative;
+  width: 100%;
+  object-fit: cover;
+  min-height: 56.25%;
+  display:block;
 }
 
 .coverHero {
@@ -38,4 +57,16 @@
   bottom: 0;
   left: 0;
   margin: 10px;
+}
+
+nav{
+display:absolute;
+width: 5%;
+height: 10%;
+
+}
+body{ 
+  background:rgb(0, 70, 67);
+  height: 100vh; 
+  width: 100vh;
 }
