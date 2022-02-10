@@ -3,21 +3,20 @@ body {
   width: 100vh;
 }
 .hero {
-  overflow: hidden;
-  width: 100%;
+  /*overflow: hidden;*/
+  width: 100vh;
   @media screen (orientation: landscape) {
     height: 56.25%;
   }
 }
+img {
+  width: 1026px;
+  height: 100vh;
+  object-fit: cover;
+}
 .heroPicture {
   width: 100vh;
-}
-.heroPicture img {
-  object-fit: cover;
-}
-.heroPicture source {
-  width: 100%;
-  object-fit: cover;
+  height: 100vh;
 }
 .coverHero {
   position: absolute;
@@ -35,4 +34,5 @@ body {
 button {
   border: none;
   padding: 10px 30px;
+  background-color: var(--pink);
 }
