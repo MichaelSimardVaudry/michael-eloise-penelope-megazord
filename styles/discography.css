@@ -1,6 +1,6 @@
 body {
   box-sizing: border-box;
-  background-color: black;
+  background-color: var(--darkDark);
   width: 100%;
 }
 .hero {
@@ -21,7 +21,7 @@ img {
 .coverHero {
   position: absolute;
   top: 0;
-  background-image: linear-gradient(rgba(0, 0, 0, 0), var(--greenBlue));
+  background-image: linear-gradient(rgba(0, 0, 0, 0), var(--darkRed));
   height: 100%;
   width: 100%;
 }
@@ -35,8 +35,6 @@ button {
   font-family: var(--textNormal);
   border: none;
   padding: 10px 30px;
-  background-color: var(--pink);
 }
 button:active {
-  background-color: var(--gold);
 }
