@@ -1,8 +1,9 @@
 @font-face {
   font-family: "fontStyle";
-  src: url("/styles/font/TheMedic-Regular.ttf") format("truetype");
-  src: url("/styles/font/TheMedic-Regular.otf") format("opentype");
-  src: url("/styles/font/TheMedic-Regular.woff") format("woff");
+  src: url("/font/TheMedic-Regular.ttf") format("truetype");
+  src: url("/font/TheMedic-Regular.otf") format("opentype");
+  src: url("/font/TheMedic-Regular.woff2") format("woff2");
+  src: url("/font/RiseUp-ngxJ.ttf") format("truetype");
 }
 
 :root {
@@ -20,7 +21,7 @@ body{
 }
 body h1{
   font-family: var(--textstyle);
-  color: var(--blackblue);
+  color: var(--pink);
   font-size: 25px;
 }
 body h2{

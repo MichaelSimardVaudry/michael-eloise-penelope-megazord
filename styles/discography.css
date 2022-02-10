@@ -12,11 +12,11 @@ body {
 }
 img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 .heroPicture {
   width: 100%;
+  height: 150%;
 }
 .coverHero {
   position: absolute;
@@ -32,8 +32,11 @@ img {
   margin: 10px;
 }
 button {
-  font-family: var(textNormal);
+  font-family: var(--textNormal);
   border: none;
   padding: 10px 30px;
   background-color: var(--pink);
+}
+button:active {
+  background-color: var(--gold);
 }
