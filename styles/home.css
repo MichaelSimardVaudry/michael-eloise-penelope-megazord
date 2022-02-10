@@ -38,12 +38,30 @@ position: absolute;
 
 .btn_more {
     position: absolute;
-    border: none;
-    padding: 10px 200px;
-    font-size: 100px;
+    background-color: #f44336; 
+  border-radius: 500px;
+  opacity: 85%;
+  padding: 15px 300px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 80px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
     top:58%;
-    left:45%;
-    
-    
+    left:43%;
     
 }
+
+.btn_more {
+    background-color: #f44336; 
+    color: white; 
+    border: 2px solid white;
+  }
+  
+  .btn_more:hover {
+    background-color: #f44336;
+    color: white;
+  }
+  
