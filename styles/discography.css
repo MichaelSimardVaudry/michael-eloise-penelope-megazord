@@ -7,7 +7,7 @@ body {
   overflow: hidden;
   width: 100%;
   @media screen (orientation: landscape) {
-    height: 56.25%;
+    height: 56.25vh;
   }
 }
 img {
@@ -37,4 +37,10 @@ button {
   padding: 10px 30px;
 }
 button:active {
+}
+.navbar {
+  background-color: var(--mediumRed);
+}
+.logo {
+  width: 10%;
 }
