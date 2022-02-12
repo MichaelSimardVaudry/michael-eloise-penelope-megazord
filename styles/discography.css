@@ -22,7 +22,7 @@ img {
   position: absolute;
   top: 0;
   background-image: linear-gradient(rgba(0, 0, 0, 0), var(--darkRed));
-  height: 150%;
+  height: 100%;
   width: 100%;
 }
 .textHero {
@@ -43,4 +43,9 @@ button:active {
 }
 .logo {
   width: 10%;
+}
+footer {
+  padding: 20px;
+  background-color: var(--darkGrey);
+  margin: 20px 0px 0px 0px;
 }
