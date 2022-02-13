@@ -72,3 +72,21 @@ position: absolute;
   .logo{
     width: 50px;
   }
+  
+  footer {
+    padding: 20px;
+    margin-top:20px;
+    background-color: var(--darkGrey);
+    position: absolute;
+  }
+
+ 
+  .contact {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .copy {
+    display: flex;
+    justify-content: flex-end;
+  }
