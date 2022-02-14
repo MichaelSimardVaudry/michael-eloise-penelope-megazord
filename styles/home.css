@@ -32,8 +32,10 @@ position: absolute;
     font-family: var(--textstyle);
 }
 
-.text {
+.h2 {
   font-family: var(--textnormal);
+  display: flex;
+  
 }
 
 .btn_more {
@@ -77,16 +79,6 @@ position: absolute;
     padding: 20px;
     margin-top:20px;
     background-color: var(--darkGrey);
-    position: absolute;
+    
   }
 
- 
-  .contact {
-    display: flex;
-    justify-content: flex-end;
-  }
-
-  .copy {
-    display: flex;
-    justify-content: flex-end;
-  }
