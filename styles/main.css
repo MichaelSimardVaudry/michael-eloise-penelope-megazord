@@ -7,11 +7,15 @@
 }
 
 :root {
-  --Blackblue: #0c1618;
-  --greenBlue: #004643;
-  --milk: #faf4d3;
-  --gold: #d1ac00;
-  --pink: #f6be9a;
+  --darkDark: #0b090a;
+  --lightDark: #161a1d;
+  --darkRed: #660708;
+  --mediumDarkRed: #a4161a;
+  --mediumRed: #ba181b;
+  --lightRed:#e5383b;
+  --darkGrey:#b1a7a6;
+  --mediumgrey:#d3d3d3;
+  --lightgrey:#f5f3f4;
   --textnormal:font-family: "Sorts Mill Goudy", serif;;
   --textstyle:font-family: "fontStyle";
 }

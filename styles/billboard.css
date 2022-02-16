@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 @media  (min-width: 1000px),  screen and (orientation: landscape){ 
     body { background:rgb(12, 22, 24);} .img{background-image:-o-linear-gradient(monochrome)
     }
+=======
+@media screen and (min-width: 1000px),(orientation: landscape),(min-aspect-ratio: 16/9){ 
+    body { background:rgb(12, 22, 24); height: 56.25%;}
+>>>>>>> 2276e5e9486f79c1e766923f5e9f23822fcfe8c2
   }
  
   @media screen and (min-aspect-ratio: 16/9), (Breakpoint) { 
