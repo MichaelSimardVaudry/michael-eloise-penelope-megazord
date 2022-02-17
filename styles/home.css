@@ -32,9 +32,12 @@ position: absolute;
     font-family: var(--textstyle);
 }
 
-.h2 {
-  font-family: var(--textnormal);
+
+
+h2 {
   display: flex;
+  justify-content: center;
+  color: white;
   
 }
 
@@ -82,4 +85,3 @@ position: absolute;
     
   }
 
-  
