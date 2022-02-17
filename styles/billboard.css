@@ -22,9 +22,13 @@
 .hero  {
   position: relative;
   overflow: hidden;
-  width: 100vh;
-  height: 56.25vw;
-
+  width: 100vw;
+  
+} 
+@media screen and (orientation: landscape) { 
+  .img{
+    height: 56.25vw;
+  } 
 }
  .cadrepic .hero .heropic{
   height: 100%;  
