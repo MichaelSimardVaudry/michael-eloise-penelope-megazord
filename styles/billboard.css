@@ -71,17 +71,20 @@ body{
   height: 100vh; 
   width: 100vh;
 }
-footer,.card {
+.card {
   
- padding: 20px;
-  margin-top: 20px; 
+ padding:20px;
+  margin-top:20px; 
   background-color:#b1a7a6;
  
 }
 
 .btn{
    background-color:#d3d3d3;
+   border:none;
+   color: black;
  }
  .btn:hover{
   background-color:#f5f3f4;
+  color: rgb(110, 110, 110);
 }
