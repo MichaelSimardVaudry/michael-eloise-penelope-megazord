@@ -56,10 +56,9 @@
   text-decoration: none;
   display: inline-block;
   font-size: 20px;
-
   transition-duration: 0.4s;
   cursor: pointer;
-  top: 58%;
+  margin-top: 10px;
   left: 46%;
 }
 
