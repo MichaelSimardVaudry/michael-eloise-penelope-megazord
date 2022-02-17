@@ -23,6 +23,7 @@
   position: relative;
   overflow: hidden;
   width: 100vh;
+  height: 56.25vw;
 
 }
  .cadrepic .hero .heropic{
@@ -34,14 +35,14 @@
 .heropic img{
   position: relative;
   width: 100%;
+  height: 100%;
   object-fit: cover;
-  max-height: min-content;
+  object-position: 45% 0%;
 }
 .heropic source{
   position: relative;
   width: 100%;
   object-fit: cover;
-  min-height: 56.25%;
   display:block;
 }
 
