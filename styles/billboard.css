@@ -1,24 +1,20 @@
-@media screen and (min-width: 1000px),(orientation: landscape),(min-aspect-ratio: 16/9){ 
-     
-  }
-  
-  @media (max-width: 600px) { 
+body{ 
+ background-color: black; 
+}
+
+@media screen and (min-width: 1000px),(orientation: landscape),(min-aspect-ratio: 16/9){ }
+@media (max-width: 600px) { 
     .section { width: 100%; } 
   }
- h2 {font-family: 'Rowdies', cursive; }
 
+h2 {font-family: 'Rowdies', cursive; }
+.titre {font-family: 'IM Fell English SC', serif;}
+h2 {font-family: 'Rowdies', cursive; }
+
+/*début main*/
 .titre {
   font-family: 'IM Fell English SC', serif;
 }
-
-/*.cadrepic{
-  position: absolute;
-}*/
-
- h2 {font-family: 'Rowdies', cursive; }
-
-.titre {font-family: 'IM Fell English SC', serif;}
-
 .hero  {
   position: relative;
   overflow: hidden;
@@ -49,7 +45,6 @@
   object-fit: cover;
   display:block;
 }
-
 .coverHero {
   position: absolute;
   top: 0;
@@ -64,17 +59,17 @@
   left: 0;
   margin: 10px;
 }
+/*Fin section main */
 
+
+/*Début navigation*/
 .navbar{
 background-color: rgb(2, 2, 2);
 }
+/*Fin navigation*/
 
 
 
-body{ 
- background-color: black; 
- 
-}
 footer { 
  padding:20px;
   margin-top:20px; 
