@@ -42,26 +42,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body style="height: 100vh; width: 100vh">
+  <body>
    
     <main>
-      <div class="cadrepic">
-          <section class="hero col-12" style="height: 100%; width: 100%">
-            <picture class="heropic col-12">
-              <source srcset="img/groupe_orange_mono.png" media="(min-width: 1000px)">
+    
+      <section class="hero">
+            <picture class="heropic">
+              <source srcset="img/groupe_orange_mono.png" media="(prefers-color-scheme:dark)">
               <img src="img/groupe_orange_portrait.png">
             </picture>
-          </section>
+         
           <div class="coverHero">
-            <article class="textHero">
+            
+          </div> 
+          <article class="textHero">
               <h1 class="titre">Palmarès</h1>
               <h3>Bring me the horizon.</h3>
-            </article>
-          </div> 
-      </div>
+            </article> 
+      </section>
       
     </main>
-    <nav class="navbar navbar-dark fixed-top navbar-expand-sm">
+   <nav class="navbar navbar-dark sticky-top navbar-expand-sm">
       <div class="container-sm">
         <a class="navbar-brand" href="index.html">
           <img src="img/logo_blanc.svg" alt="" width="30" height="24">
@@ -79,10 +80,10 @@
         </ul>
       </div>
     </nav> 
-    <footer class="container-fluid fixed-bottom ">
+    <footer class="container-fluid">
       <div class="card card text-center"> 
         <div class=row>
-          <div class="card-body">
+          <div class="card-body col-12">
             <p class="card-text">Pénélope Morrisson</p>
             <p class="card-text">Éloise Gagné</p>
             <p class="card-text">Michael Simard</p>
