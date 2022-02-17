@@ -37,21 +37,29 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Bring Me The Horizon</title>
   </head>
 
   <body>
+    <header>
     <section class="hero">
-      <h1 class="title">Bring Me The Horizon</h1>
-      <h2 class="text">Lorem ipsum</h2>
-      <picture class="hero_picture">
-        <source srcset="/img/big_screen_band.jpg" media="(min-width: 1000px)">
+      <picture>
+        <source srcset="/img/big_screen_band.jpg" media="(orientation: landscape)">
         <img class="col-12" src="/img/format_cell_04.jpg">
       </picture>
       <div class="contraste"></div>
-      <button class="btn_more">En savoir plus</button>
+      <div class="container-fluid ">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-12 col-md-6 col-xxl-4">
+            <h2 class="title">Bring Me the Horizon</h2>
+            <p>Bring Me the Horizon, abrégé BMTH est un groupe de métal britannique formé en 2004 par des musiciens venant de diverses formations de la scène locale.</p>
+            <button class="btn_more">En savoir plus</button>
+          </div>
+        </div>
+      </div>
     </section>
-  <nav class="navbar navbar-dark navbar-expand-sm fixed-bottom">
+  </header>
+  <nav class="navbar navbar-dark navbar-expand-sm sticky-top">
     <div class="container"></div>
     <a class="navbar-brand" href="index.html"><img class="logo" src="/img/logo_blanc.svg"></a>
     <div id="mainNav" class="collapse navbar-collapse">
@@ -76,7 +84,7 @@
       </div>
     </div>
   </nav>
-  <footer class="container-fluid">
+  <footer class="container-fluid sticky-bottom">
     <div class="row">
       <div class="col-12 col-lg-6 text-center text-lg-start">Michael Simard
       </br>
