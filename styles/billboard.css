@@ -69,16 +69,12 @@ background-color: rgb(2, 2, 2);
 /*Fin navigation*/
 
 
-
+/*Début footer*/
 footer { 
  padding:20px;
   margin-top:20px; 
   background-color:#b1a7a6;
 }
-
-/*.card {
-  background-color: #b1a7a6;
-}*/
 .btn{
    background-color:#d3d3d3;
    border:none;
@@ -88,3 +84,4 @@ footer {
   background-color:#f5f3f4;
   color: rgb(110, 110, 110);
 }
+/*fin footer*/
