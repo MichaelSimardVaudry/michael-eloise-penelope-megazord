@@ -1,34 +1,56 @@
 body {
   box-sizing: border-box;
   background-color: var(--darkDark);
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
 }
 .hero {
-  overflow: hidden;
-  width: 100%;
-  @media screen (orientation: landscape) {
-    height: 56.25vh;
+  width: 100vw;
+  position: relative;
+}
+@media screen and (orientation: landscape) {
+  .hero {
+    height: 56.25vw;
   }
+}
+picture {
+  position: relative;
+}
+picture img {
+  height: 100%;
+  width: 100%;
 }
 img {
   width: 100%;
   object-fit: contain;
 }
 .heroPicture {
-  width: 100%;
-  height: 150%;
+  width: 100vw;
+  height: 100vh;
+}
+
+.hero .row {
+  height: 100%;
+}
+.hero .container-fluid {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
 }
 .coverHero {
   position: absolute;
   top: 0;
-  background-image: linear-gradient(rgba(0, 0, 0, 0), var(--darkRed));
-  height: 100%;
-  width: 100%;
-}
-.textHero {
-  position: absolute;
   bottom: 0;
   left: 0;
+  right: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), var(--darkRed));
+  width: 100%;
+  z-index: 2;
+}
+.textHero {
   margin: 10px;
 }
 button {
@@ -36,8 +58,7 @@ button {
   border: none;
   padding: 10px 30px;
 }
-button:active {
-}
+
 .navbar {
   background-color: var(--mediumRed);
 }
