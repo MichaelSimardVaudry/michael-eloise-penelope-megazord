@@ -59,7 +59,7 @@
   transition-duration: 0.4s;
   cursor: pointer;
   margin-top: 10px;
-  left: 46%;
+  left: 45%;
 }
 
 .btn_more {
@@ -86,3 +86,5 @@ footer {
   margin-top: 20px;
   background-color: var(--darkGrey);
 }
+
+.col {max-width: 250px;}
