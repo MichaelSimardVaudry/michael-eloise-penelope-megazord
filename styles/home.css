@@ -87,4 +87,9 @@ footer {
   background-color: var(--darkGrey);
 }
 
-.col {max-width: 250px;}
+.card {
+  background-color: var(--lightDark);
+  max-width: 250px;
+  margin: 10px 0 10px 0;
+
+}
