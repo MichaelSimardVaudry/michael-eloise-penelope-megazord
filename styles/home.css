@@ -100,5 +100,10 @@ footer {
 
 .band {
   color: white;
+  margin-top: 10px;
+  font-size: medium;
+}
 
+.band-title {
+  color: black;
 }
