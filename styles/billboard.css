@@ -11,7 +11,7 @@ h2 {font-family: 'Rowdies', cursive; }
 .titre {font-family: 'IM Fell English SC', serif;}
 h2 {font-family: 'Rowdies', cursive; }
 
-/*début main*/
+/*début hero*/
 .titre {
   font-family: 'IM Fell English SC', serif;
 }
@@ -59,7 +59,10 @@ h2 {font-family: 'Rowdies', cursive; }
   left: 0;
   margin: 10px;
 }
-/*Fin section main */
+/*.btn-info{
+  background-color:#a4161a;
+}*/
+/*Fin section hero */
 
 
 /*Début navigation*/
@@ -75,13 +78,13 @@ footer {
   margin-top:20px; 
   background-color:#b1a7a6;
 }
-.btn{
-   background-color:#d3d3d3;
-   border:none;
+ /*.btn {
+
    color: black;
  }
+
  .btn:hover{
   background-color:#f5f3f4;
   color: rgb(110, 110, 110);
-}
+}*/
 /*fin footer*/
