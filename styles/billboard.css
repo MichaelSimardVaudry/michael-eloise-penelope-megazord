@@ -91,10 +91,14 @@ footer {
 
 .card{
 margin: 10px 0px;
-
+padding: 0%;
 
 }
-.card-header{
+.Vidéoclips{
   background-color:none;
+  color:white;
+  }
+.card-header{
+  background-color:#660708;
   color:white;
   }
