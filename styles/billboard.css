@@ -90,6 +90,10 @@ footer {
 /*fin footer*/
 
 .card{
-margin-top: 5px;
-margin-bottom: 5px;
+margin: 10px 0px;
+
 }
+.card-title{
+  background-color:none;
+  
+  }
