@@ -98,7 +98,6 @@ padding: 0%;
   background-color:none;
   color:white;
   }
-.card-header{
-  background-color:#660708;
-  color:white;
+.card :hover{
+ 
   }
