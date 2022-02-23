@@ -70,3 +70,9 @@ footer {
   background-color: var(--darkGrey);
   margin: 20px 0px 0px 0px;
 }
+main {
+  margin: 20px 0px;
+}
+main .card {
+  margin: 20px 0px;
+}
