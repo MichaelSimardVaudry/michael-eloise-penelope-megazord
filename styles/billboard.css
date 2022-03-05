@@ -80,7 +80,12 @@ footer {
 }
 .nom{
   outline: none;
-  text-decoration:black; 
+  text-decoration:black;
+  color: black; 
+}
+.nom:hover{
+  outline: none;
+  color: #660708;
 }
 .photo{
   display: block;
