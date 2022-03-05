@@ -78,6 +78,10 @@ footer {
   margin-top:20px; 
   background-color:#b1a7a6;
 }
+.nom{
+  outline: none;
+  text-decoration: none; 
+}
  /*.btn {
 
    color: black;
@@ -89,6 +93,7 @@ footer {
 }*/
 /*fin footer*/
 
+/*début main*/
 .card{
 margin: 10px 0px;
 padding: 0%;
@@ -123,3 +128,4 @@ padding: 0%;
       height: 100%;
       border: 0;
     }
+    /*fin main*/
