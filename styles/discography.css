@@ -2,7 +2,6 @@ body {
   box-sizing: border-box;
   background-color: var(--darkDark);
   width: 100vw;
-  height: 100vh;
 }
 .hero {
   width: 100vw;
