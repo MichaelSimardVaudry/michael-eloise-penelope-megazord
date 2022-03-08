@@ -25,17 +25,17 @@ body{
 }
 body h1{
   font-family: var(--textstyle);
-  color: var(--pink);
+  color: var(--lightgrey);
   font-size: 25px;
 }
 body h2{
   font-family: var(--textnormal);
-  color: var(--milk);
+  color: var(--mediumgrey);
   font-size: 20px;
 }
 body h3{
   font-family: var(--textnormal);
-  color: var(--milk);
+  color: var(--mediumgrey);
   font-size: 20px;
 }
 

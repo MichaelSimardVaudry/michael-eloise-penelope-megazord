@@ -76,3 +76,11 @@ main {
 main .card {
   margin: 20px 0px;
 }
+.nom {
+  display: block;
+  text-decoration: none;
+  color: var(--darkgrey);
+}
+.nom:hover {
+  color: var(--mediumRed);
+}
