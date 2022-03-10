@@ -83,3 +83,19 @@ main .card {
 .nom:hover {
   color: var(--mediumRed);
 }
+.video {
+  aspect-ratio: 16/9;
+}
+@supports not(aspect-ratio: 16/9;
+) {
+  .video::before {
+    float: left;
+    padding-top: 56.25%;
+    content: "";
+  }
+  .video::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+}
