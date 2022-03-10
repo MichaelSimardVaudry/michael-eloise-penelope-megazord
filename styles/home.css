@@ -100,6 +100,11 @@ footer {
 
 }
 
+.card-img-top {
+  height: 20vh;
+  object-fit: cover;
+}
+
 .btn-outline-primary {
   width: 100%;
 }
@@ -112,3 +117,4 @@ footer {
   color:white;
   font-size: 20px;
 }
+
