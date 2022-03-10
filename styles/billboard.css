@@ -108,8 +108,17 @@ footer {
 .card{
 margin: 10px 0px;
 padding: 0%;
-
 }
+
+.card .img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card-header{
+  background-color: var(--lightRed);
+  color: var(--lightgrey);
+  }
 .Vidéoclips{
   background-color:none;
   color:var(--lightgrey);
