@@ -1,5 +1,5 @@
 body{ 
- background-color: black; 
+ background-color: var(--darkDark); 
 }
 
 @media screen and (min-width: 1000px),(orientation: landscape),(min-aspect-ratio: 16/9){ }
@@ -48,7 +48,7 @@ h2 {font-family: 'Rowdies', cursive; }
 .coverHero {
   position: absolute;
   top: 0;
-  background-image: linear-gradient(rgba(0, 0, 0, 0), var(--lightRed));
+  background-image: linear-gradient(var(--darkDark), var(--lightRed));
   opacity: 70%;
   height: 100%;
   width: 100%;
@@ -67,7 +67,7 @@ h2 {font-family: 'Rowdies', cursive; }
 
 /*Début navigation*/
 .navbar{
-background-color: rgb(2, 2, 2);
+background-color:var(--darkDark);
 }
 /*Fin navigation*/
 
@@ -76,16 +76,16 @@ background-color: rgb(2, 2, 2);
 footer { 
  padding:20px;
   margin-top:20px; 
-  background-color:#b1a7a6;
+  background-color:var(--darkGrey);
 }
 .nom{
   outline: none;
-  text-decoration:black;
-  color: black; 
+  text-decoration:var(--darkDark);
+  color: var(--darkDark); 
 }
 .nom:hover{
   outline: none;
-  color: #660708;
+  color:var(--darkRed);
 }
 .photo{
   display: block;
@@ -111,11 +111,11 @@ padding: 0%;
 }
 .Vidéoclips{
   background-color:none;
-  color:white;
+  color:var(--lightgrey);
   }
   .Vidéo{
     background-color:none;
-    color:white;
+    color:var(--lightgrey);
     }
 .img {
   height: 100%;
