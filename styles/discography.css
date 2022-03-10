@@ -72,7 +72,7 @@ footer {
 main {
   margin: 20px 0px;
 }
-main .card {
+main .padd {
   margin: 20px 0px;
 }
 .nom {
@@ -83,19 +83,29 @@ main .card {
 .nom:hover {
   color: var(--mediumRed);
 }
-.video {
+.video-ratio {
   aspect-ratio: 16/9;
+  width: 100%;
 }
-@supports not(aspect-ratio: 16/9;
-) {
-  .video::before {
+@supports not (aspect-ratio: 16/9) {
+  .video-ratio::before {
     float: left;
     padding-top: 56.25%;
     content: "";
   }
-  .video::after {
+  .video-ratio::after {
     display: block;
     content: "";
     clear: both;
   }
+}
+.video_ {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.test {
+  position: block;
 }
