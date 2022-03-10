@@ -83,7 +83,6 @@ main .padd {
 .nom:hover {
   color: var(--mediumRed);
 }
-<<<<<<< HEAD
 .video-ratio {
   aspect-ratio: 16/9;
   width: 100%;
@@ -110,5 +109,3 @@ main .padd {
 .test {
   position: block;
 }
-=======
->>>>>>> parent of 39fc8c9 (:apple: ciao)
