@@ -83,19 +83,25 @@ main .card {
 .nom:hover {
   color: var(--mediumRed);
 }
-.video {
+.video-ratio {
   aspect-ratio: 16/9;
 }
-@supports not(aspect-ratio: 16/9;
-) {
-  .video::before {
+@supports not (aspect-ratio: 16/9) {
+  .video-ratio::before {
     float: left;
     padding-top: 56.25%;
     content: "";
   }
-  .video::after {
+  .video-ratio::after {
     display: block;
     content: "";
     clear: both;
   }
+}
+.video_ {
+  aspect-ratio: 16/9;
+  width: 100%;
+}
+.test {
+  position: block;
 }
