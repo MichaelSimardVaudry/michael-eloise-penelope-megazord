@@ -118,3 +118,14 @@ footer {
   font-size: 20px;
 }
 
+.nom{
+  outline: none;
+  text-decoration: none;
+  color: var(--darkDark);
+
+}
+
+.nom:hover{
+  outline: none;
+  color: var(--darkRed)
+}
