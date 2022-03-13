@@ -133,3 +133,7 @@ footer {
 .photo{
   display: block;
 }
+
+.modal-title {
+  color: var(--darkDark)
+}
