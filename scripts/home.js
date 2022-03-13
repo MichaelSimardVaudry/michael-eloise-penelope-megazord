@@ -1,5 +1,5 @@
-var swiper = new Swiper(".myMwiper", {
+/*var swiper = new swiper(".myMwiper", {
     pagination: {
         el: ".swiper-pagination",
     },
-});
+});*/

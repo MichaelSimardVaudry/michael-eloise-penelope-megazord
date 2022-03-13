@@ -151,11 +151,26 @@
               <h2>Images promotionnelles</h2>
 
               <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
+                <div class="swiper-wrapper ">
 
-                  <div class="swiper-slide"></div>
-                  <div class="swiper-slide"></div>
-                  <div class="swiper-slide"></div>
+                  <div class="swiper-slide ratio ratio-16x9">
+                    <img src="img/groupe_america_beihe.jpg">
+                  </div>
+                  <div class="swiper-slide ratio ratio-16x9">
+                    <img src="img/groupe_america_beihe.jpg">
+                  </div>
+                  <div class="swiper-slide ratio ratio-16x9">
+                    <img src="img/groupe_america_beihe.jpg">
+                  </div>
+                  <div class="swiper-slide ratio ratio-16x9">
+                    <img src="img/groupe_america_beihe.jpg">
+                  </div>
+                  <div class="swiper-slide ratio ratio-16x9">
+                    <img src="img/groupe_america_beihe.jpg">
+                  </div>
+                  <div class="swiper-slide ratio ratio-16x9">
+                    <img src="img/groupe_america_beihe.jpg">
+                  </div>
                 </div>
                 <div class="swiper-pagination"></div>
               </div>
@@ -238,6 +253,13 @@
 <script src="scripts/main.js"></script>
 <script src="scripts/home.js"></script>
 <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    pagination: {
+      el: ".swiper-pagination",
+    },
+  });
+</script>
 
   </body>
 </html>
