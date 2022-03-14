@@ -7,15 +7,10 @@ body {
   width: 100vw;
   position: relative;
 }
-@media screen and (orientation: landscape) {
-  .hero {
-    height: 56.25vw;
-  }
-}
-picture {
+.swiper {
   position: relative;
 }
-picture img {
+.swiper img {
   height: 100%;
   width: 100%;
 }
@@ -48,6 +43,10 @@ img {
   background-image: linear-gradient(rgba(0, 0, 0, 0), var(--darkRed));
   width: 100%;
   z-index: 2;
+}
+.modal img {
+  width: 300px;
+  margin: auto;
 }
 .textHero {
   margin: 10px;
