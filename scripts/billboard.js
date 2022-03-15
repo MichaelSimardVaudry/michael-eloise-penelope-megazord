@@ -4,3 +4,11 @@ var myInput = document.getElementById('myInput')
 myModal.addEventListener('shown.bs.modal', function () {
   myInput.focus()
 })*/
+
+const swiper = new Swiper('.swiper', {
+  speed: 400,
+  spaceBetween: 100,
+  direction:'horizontal',
+  effect:'slide',
+  
+});
