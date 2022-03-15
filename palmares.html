@@ -188,10 +188,10 @@
                           </div>
                            <div class="swiper-slide">
                              <img src="img/chanteur_scene_bleu.jpg">
-                           </div>
-                           <div class="swiper-button-next"></div>
-                           <div class="swiper-button-prev"></div>
+                           </div>   
                         </div> 
+                          <div class="swiper-button-next"></div>
+                          <div class="swiper-button-prev"></div>
                       </div>
                       </div>
                     </div>
@@ -266,9 +266,18 @@
 
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script> var swiper = new Swiper(".mySwiper", {
+      direction:'horizontal',
+      loop:true,
+      slidesPerView:1,
+      breakpoints:{
+      992:{
+        slidesPerView:2,
+        spaceBetween:20,
+      },  
+      },
       navigation:{
         nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
+        prevEl: ".swiper-button-prev", 
       },
     });
     
