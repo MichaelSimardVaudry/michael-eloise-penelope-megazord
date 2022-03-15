@@ -159,5 +159,8 @@ padding: 0%;
       height: 100%;
        object-fit: cover;
       }
-      
+      :root {
+        --swiper-navigation-color: var(--lightRed);
+       
+        } 
     /*fin main*/
