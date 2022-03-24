@@ -22,6 +22,7 @@
 
 body{
   font-size: 20px;
+  background-color: var(--lightgrey); 
 }
 body h1{
   font-family: var(--textstyle);

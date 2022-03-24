@@ -10,6 +10,7 @@ body {
   width: 100%;
   height: 100vh;
   overflow-x: hidden;
+ 
 }
 .hero {
   position: relative;
@@ -136,4 +137,17 @@ footer {
 
 .modal-title {
   color: var(--darkDark)
+}
+
+.promo {
+  color: black;
+}
+
+.video_texte {
+  color: black;
+}
+
+.video {
+  aspect-ratio: 16/9;
+  width: 100%;
 }
