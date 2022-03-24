@@ -1,6 +1,4 @@
-body{ 
- 
-}
+
 
 @media screen and (min-width: 1000px),(orientation: landscape),(min-aspect-ratio: 16/9){ }
 @media (max-width: 600px) { 
@@ -68,7 +66,7 @@ font-size:xx-large;
 
 /*Début navigation*/
 .navbar{
-background-color:var(--darkDark);
+background-color:var(--mediumRed);
 }
 /*Fin navigation*/
 
