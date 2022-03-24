@@ -68,6 +68,10 @@ font-size:xx-large;
 .navbar{
 background-color:var(--mediumRed);
 }
+
+.logo {
+  width: 50px;
+}
 /*Fin navigation*/
 
 
