@@ -51,6 +51,7 @@ body {
   font-size: 50px;
   display: flex;
   justify-content: center;
+  color: white;
 }
 
 .btn_more {
