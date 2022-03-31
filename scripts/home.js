@@ -6,10 +6,10 @@
 
 gsap.registerPlugin(ScrollTrigger);
 
-gsap.to('.timeline', {
+gsap.to('no1', {
     scrollTrigger: {
     markers: true,
-    trigger: '.timeline',
+    trigger: 'no1',
     },
     x: '100%',
     duration: 2,
