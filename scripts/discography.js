@@ -2,7 +2,7 @@ gsap.registerPlugin(ScrollTrigger);
 gsap.from(".n01", {
   scrollTrigger: {
     start: "top 50%",
-    end: "bottom 50%",
+    end: "bottom 90%",
 
     trigger: ".n01",
     toggleActions: "restart complete reverse reset",
