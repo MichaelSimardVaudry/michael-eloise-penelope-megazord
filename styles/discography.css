@@ -1,6 +1,6 @@
 body {
   box-sizing: border-box;
-  
+
   width: 100vw;
 }
 .hero {
@@ -103,4 +103,11 @@ main .card {
 }
 .test {
   position: block;
+}
+h2:nth-last-child(1) {
+  color: var(--lightRed);
+}
+.card-header {
+  background-color: var(--lightRed);
+  color: white;
 }
