@@ -97,7 +97,6 @@ footer {
 
 .card {
   background-color: var(--lightDark);
-  max-width: 250px;
   margin: 10px 0 10px 0;
 
 }
@@ -107,7 +106,7 @@ footer {
   object-fit: cover;
 }
 
-.btn-outline-primary {
+.btn-outline-danger {
   width: 100%;
 }
 
