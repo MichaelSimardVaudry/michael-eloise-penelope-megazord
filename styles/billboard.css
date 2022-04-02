@@ -123,11 +123,10 @@ padding: 0%;
   }
 .Vidéoclips{
   background-color:none;
-  color:var(--lightgrey);
   }
   .Vidéo{
     background-color:none;
-    color:var(--lightgrey);
+    
     }
 .img {
   height: 100%;
