@@ -6,14 +6,14 @@
 
 gsap.registerPlugin(ScrollTrigger);
 
-gsap.from(".no1", {
+gsap.to(".no1", {
     scrollTrigger: {
-      start: "top 70%",
-      end: "bottom 30%",
+      start: "top 0%",
+      end: "bottom 25%",
       scrub: true,
       trigger: ".no1",
-      toggleActions: "restart complete reverse reset",
+      markers: true,
     },
-    x: "100%",
+    y: "100%",
     duration: 2,
   });
