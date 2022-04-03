@@ -145,8 +145,8 @@ gsap.from(".n07", {
 });
 gsap.from(".animTitle", {
   scrollTrigger: {
-    start: "top 70%",
-    end: "bottom 30%",
+    start: "top 90%",
+    end: "bottom 100%",
     scrub: true,
     trigger: ".n07",
     toggleActions: "restart complete reverse reset",
