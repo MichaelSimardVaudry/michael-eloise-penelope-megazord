@@ -13,25 +13,16 @@ myModal.addEventListener('shown.bs.modal', function () {
   
 });*/
 gsap.registerPlugin(ScrollTrigger);
-gsap.from(".n1", {
+const body = document.querySelector('body');
+
+gsap.to(".n01", {
   scrollTrigger: {
-    start: "top 70%",
-    end: "bottom 30%",
     scrub: true,
-    trigger: ".n1",
-    toggleActions: "restart complete reverse reset",
+    markers: true,
+    start: 'center 50%',
+    end: 'center 0%',
+    trigger: '.body',
   },
-  x: "100%",
-  duration: 2,
-});
-gsap.from(".n2", {
-  scrollTrigger: {
-    start: "top 70%",
-    end: "bottom 30%",
-    scrub: true,
-    trigger: ".n2",
-    toggleActions: "restart complete reverse reset",
-  },
-  x: "100%",
-  duration: 2,
-});
+  duration: 1,
+  x: '400%',
+})
