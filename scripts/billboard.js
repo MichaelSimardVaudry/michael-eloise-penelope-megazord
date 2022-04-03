@@ -15,16 +15,10 @@ myModal.addEventListener('shown.bs.modal', function () {
 gsap.registerPlugin(ScrollTrigger);
 const body = document.querySelector('body');
 
-body.addEventListener("scroll",() => {
-gsap.to(".n01", {
-  scrollTrigger: {
-    scrub: true,
-    markers: true,
-    start: 'center 50%',
-    end: 'center 0%',
-    trigger: '.n01',
-  },
-  duration: 1,
+window.addEventListener("scroll",() => {
+gsap.fromt(".n01", {
+  
+  opacity: 1,
   x: '400%',
 })
 });
