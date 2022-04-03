@@ -15,10 +15,11 @@ myModal.addEventListener('shown.bs.modal', function () {
 gsap.registerPlugin(ScrollTrigger);
 
 gsap.to('.no1', {
-  x: '100%',
-  markers:true,
-  duration: 2,
+  
   scrollTrigger: {
     trigger: '.no1',
-  }
+  },
+  markers:true,
+  x: '400%',
+  duration: 2,
 });
