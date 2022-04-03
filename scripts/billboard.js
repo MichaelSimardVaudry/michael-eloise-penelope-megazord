@@ -15,7 +15,7 @@ myModal.addEventListener('shown.bs.modal', function () {
 gsap.registerPlugin(ScrollTrigger);
 const body = document.querySelector('body');
 
-window.addEventListener("scroll",() => {
+body.addEventListener("scroll",() => {
 gsap.to(".n01", {
   scrollTrigger: {
     scrub: true,
