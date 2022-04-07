@@ -20,6 +20,6 @@ gsap.to('.no1', {
     trigger: '.no1',
   },
   markers:true,
-  x: '400%',
+  rotation: '360%',
   duration: 2,
 });
