@@ -6,14 +6,38 @@
 
 gsap.registerPlugin(ScrollTrigger);
 
-gsap.to(".no1", {
-    scrollTrigger: {
-      start: "top 0%",
-      end: "bottom 25%",
-      scrub: true,
-      trigger: ".no1",
-      markers: true,
-    },
-    y: "100%",
+gsap.timeline({
+  duration: 1,
+  scrollTrigger: {
+    markers: true,
+    start: 'top 100%',
+    end: 'bottom 25%',
+    toggleActions: 'restart complete reverse reset',
+    trigger: '.no1',
+  },
+})
+  .from('.no1', { x: '100%' })
+
+  gsap.timeline({
     duration: 2,
-  });
+    scrollTrigger: {
+      markers: true,
+      start: 'top 100%',
+      end: 'bottom 25%',
+      toggleActions: 'restart complete reverse reset',
+      trigger: '.no2',
+    },
+  })
+    .from('.no2', { x: '100%' })
+
+    gsap.timeline({
+      duration: 3,
+      scrollTrigger: {
+        markers: true,
+        start: 'top 100%',
+        end: 'bottom 25%',
+        toggleActions: 'restart complete reverse reset',
+        trigger: '.no3',
+      },
+    })
+      .from('.no3', { x: '100%' })
