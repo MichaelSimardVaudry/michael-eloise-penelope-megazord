@@ -151,3 +151,13 @@ footer {
   aspect-ratio: 16/9;
   width: 100%;
 }
+
+.img {
+  width: 250px;
+  background-image: url(avancer.png) ;
+  animation-name: marche;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(24);
+
+}
