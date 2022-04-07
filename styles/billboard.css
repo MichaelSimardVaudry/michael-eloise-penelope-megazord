@@ -166,9 +166,7 @@ padding: 0%;
         } 
         #parapuie {
          padding: 10% ;
-          width: 400px;
-          height: 400px;
-          background-image: url('https://raw.githubusercontent.com/MichaelSimardVaudry/michael-eloise-penelope-megazord/TP05_animation_section_scrollTrigger/img/avancer.png');
+          background-image: url('https://codepen.io/Champire/pen/jOYzBbj');
           background-position: 0 0;
         }
         
