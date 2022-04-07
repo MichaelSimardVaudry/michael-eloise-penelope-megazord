@@ -171,7 +171,7 @@ padding: 0%;
           transform: translate(-50%, -50%);
           width: 100px;
           height: 130px;
-          background-image: url('img/idle.png');
+          background-image: url('https://raw.githubusercontent.com/MichaelSimardVaudry/michael-eloise-penelope-megazord/TP05_animation_section_scrollTrigger/img/avancer.png');
           background-position: 0 0;
         }
         
