@@ -22,7 +22,7 @@ gsap.timeline({
     duration: 2,
     scrollTrigger: {
       markers: true,
-      start: 'top 100%',
+      start: 'top 90%',
       end: 'bottom 25%',
       toggleActions: 'restart complete reverse reset',
       trigger: '.no2',
@@ -31,10 +31,10 @@ gsap.timeline({
     .from('.no2', { x: '100%' })
 
     gsap.timeline({
-      duration: 3,
+      duration: 2,
       scrollTrigger: {
         markers: true,
-        start: 'top 100%',
+        start: 'top 80%',
         end: 'bottom 25%',
         toggleActions: 'restart complete reverse reset',
         trigger: '.no3',
