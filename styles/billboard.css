@@ -164,4 +164,46 @@ padding: 0%;
         --swiper-navigation-color: var(--lightRed);
        
         } 
+        .link {
+          position: fixed;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 100px;
+          height: 130px;
+          background-image: url('img/idle.png');
+          background-position: 0 0;
+        }
+        
+        .direction-down .link {
+          animation: idle-front 0.6s steps(3) 1;
+        }
+        
+        .direction-down.is-scrolling .link {
+          animation: walk-front 1s steps(10) infinite;
+        }
+        
+        .direction-up .link {
+          background-position: 0 -130px;
+        }
+        
+        .direction-up.is-scrolling .link {
+          animation: walk-back 1s steps(10) infinite;
+        }
+        
+        @keyframes idle-front {
+           0% { background-position: 0 0; }
+           100% { background-position: -360px 0; }
+        }
+        
+        @keyframes walk-front {
+           0% { background-position: 0 -260px; }
+           100% { background-position: -1200px -260px; }
+        }
+        
+        @keyframes walk-back {
+           0% { background-position: 0 -390px; }
+           100% { background-position: -1200px -390px; }
+        }
+    
     /*fin main*/
