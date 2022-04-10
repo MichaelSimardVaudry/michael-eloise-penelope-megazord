@@ -168,27 +168,26 @@ padding: 0%;
             max-width:100%;
             height:100vh;
              box-sizing: border-box;
+             display: flex;
            }
            #anim .parapuie{
-            padding: 10% ;
-            max-width: 100%;
-            object-fit: cover;
-            
+             object-fit: contain;
            }
         .parapuie{
          padding: 10% ;
-         width: 400px;
+        max-width: 400px;
          height: 400px;
          background-image: url('../img/idle.png');
           background-position: 0 0;
           position: sticky;
+          
         }
 
         .parapuie.bas{
           
            background-image: url('../img/avancer.png');
            animation-name: bas;
-          animation-duration: 1s;
+          animation-duration:1s;
           animation-iteration-count: infinite;
           animation-timing-function: steps(24);
          }
