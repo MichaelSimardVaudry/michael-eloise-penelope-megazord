@@ -18,3 +18,8 @@ Pénélope Morrisson  </br>
 https://codepen.io/Champire/pen/yLpKbxv </br>
 https://codepen.io/Champire/pen/gOoeWjr </br>
 https://codepen.io/Champire/pen/jOYzBbj </br>
+
+Michael Simard
+[Idle](https://codepen.io/micha-l-simard/pen/zYpJbjR)
+[Scroll UP](https://codepen.io/micha-l-simard/pen/mdpGgJJ)
+[Scroll DOWN](https://codepen.io/micha-l-simard/pen/oNpPONR)
