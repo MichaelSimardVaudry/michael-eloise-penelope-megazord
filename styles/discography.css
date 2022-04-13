@@ -112,12 +112,6 @@ h2:nth-last-child(1) {
   background-color: var(--lightRed);
   color: white;
 }
-#anim {
-  max-width: 100%;
-  height: 100vh;
-  box-sizing: border-box;
-  display: flex;
-}
 #anim .bat {
   object-fit: contain;
 }

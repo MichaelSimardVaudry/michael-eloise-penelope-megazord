@@ -155,7 +155,7 @@ gsap.from(".animTitle", {
   duration: 2,
 });
 
-const parapuie = document.querySelector(".parapuie");
+const bat = document.querySelector(".bat");
 const main = document.querySelector("#main");
 let temps;
 
@@ -164,7 +164,7 @@ gsap.to("#main", {
     trigger: "#main",
     scrub: 0.25,
     onUpdate: (e) => {
-      parapuie.classList.add("is-scrolling");
+      bat.classList.add("is-scrolling");
     },
   },
 });
@@ -177,12 +177,19 @@ gsap.to(".bat", {
     trigger: "#anim",
     onUpdate: (e) => {
       if (e.direction == 1) {
-        parapuie.classList.remove("up");
-        parapuie.classList.add("down");
+        bat.classList.remove("up");
+        bat.classList.add("down");
       } else {
-        parapuie.classList.remove("down");
-        parapuie.classList.add("up");
+        bat.classList.remove("down");
+        bat.classList.add("up");
       }
     },
   },
+});
+
+window.addEventListener("scroll", function () {
+  window.clearTimeout(temps);
+  temps = setTimeout(function () {
+    body.classList.remove("is-scrolling");
+  }, 250);
 });

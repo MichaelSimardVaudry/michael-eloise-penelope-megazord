@@ -6,8 +6,8 @@
 
 ### Équipe
 
-Michaël Simard     BLEU🔵 </br>
-Éloïse Gagné      ROUGE🔴 </br>
+Michaël Simard BLEU🔵 </br>
+Éloïse Gagné ROUGE🔴 </br>
 Pénélope Morrisson VERT🟢
 
 [coolors](https://coolors.co/0c1618-004643-faf4d3-d1ac00-f6be9a)
@@ -17,3 +17,8 @@ Pénélope Morrisson
 https://codepen.io/Champire/pen/yLpKbxv
 https://codepen.io/Champire/pen/gOoeWjr
 https://codepen.io/Champire/pen/jOYzBbj
+
+Michael Simard
+[Idle](https://codepen.io/micha-l-simard/pen/zYpJbjR)
+[Scroll UP](https://codepen.io/micha-l-simard/pen/mdpGgJJ)
+[Scroll DOWN](https://codepen.io/micha-l-simard/pen/oNpPONR)
