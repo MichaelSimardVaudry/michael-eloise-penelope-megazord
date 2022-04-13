@@ -51,10 +51,12 @@ gsap.to(".parapuie", {
     onUpdate: (e) => {
       if (e.direction == 1) {
         parapuie.classList.remove("haut");
+        parapuie.classList.remove("idel");
         parapuie.classList.add("bas");
         
       } else {
         parapuie.classList.remove("bas");
+        parapuie.classList.remove("idel");
         parapuie.classList.add("haut");
       }
     }
@@ -63,7 +65,8 @@ gsap.to(".parapuie", {
 window.addEventListener("scroll", function () {
   window.clearTimeout(temps);
   temps = setTimeout(function () {
-    bat.classList.remove("bas");
-    bat.classList.remove("haut");
+    parapuie.classList.remove("bas");
+    parapuie.classList.remove("haut");
+    parapuie.classList.add("idel");
   }, 250);
 });
