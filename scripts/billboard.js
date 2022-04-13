@@ -60,3 +60,10 @@ gsap.to(".parapuie", {
     }
   }
 });
+window.addEventListener("scroll", function () {
+  window.clearTimeout(temps);
+  temps = setTimeout(function () {
+    bat.classList.remove("bas");
+    bat.classList.remove("haut");
+  }, 250);
+});
