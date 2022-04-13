@@ -112,48 +112,53 @@ h2:nth-last-child(1) {
   background-color: var(--lightRed);
   color: white;
 }
-#anim .bat {
-  object-fit: contain;
-}
 .bat {
-  padding: 10%;
-  max-width: 400px;
+  width: 400px;
   height: 400px;
-  background-image: url("../img/bat_spritesheet.png");
-  background-position: 0 0;
-  position: sticky;
-}
-
-.bat.idle {
-  background-image: url("../img/bat_spritesheet.png");
-  animation-name: idle;
+  background-image: url(../img/spritesheet_bat_idle.png?raw=true);
   animation-duration: 1s;
   animation-iteration-count: infinite;
   animation-timing-function: steps(24);
 }
-
 @keyframes idle {
   from {
     background-position: 0 0;
   }
   to {
-    background-position: 0 -9600px;
+    background-position: 0 -9840px;
   }
+}
+.up {
+  width: 400px;
+  height: 400px;
+  background-image: url(../img/spritesheet_bat_up.png?raw=true);
+  animation-name: up;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(24);
 }
 @keyframes up {
   from {
     background-position: 0 0;
   }
   to {
-    background-position: 0 -9600px;
+    background-position: 0 -9840px;
   }
 }
-
+.down {
+  width: 400px;
+  height: 400px;
+  background-image: url(../img/spritesheet_bat_down.png?raw=true);
+  animation-name: down;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(24);
+}
 @keyframes down {
   from {
     background-position: 0 0;
   }
   to {
-    background-position: 0 -9600px;
+    background-position: 0 -9840px;
   }
 }

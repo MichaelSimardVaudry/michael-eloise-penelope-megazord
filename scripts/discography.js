@@ -159,9 +159,9 @@ const bat = document.querySelector(".bat");
 const main = document.querySelector("#main");
 let temps;
 
-gsap.to("#main", {
+gsap.to("#anim", {
   scrollTrigger: {
-    trigger: "#main",
+    trigger: "#anim",
     scrub: 0.25,
     onUpdate: (e) => {
       bat.classList.add("is-scrolling");
@@ -171,8 +171,10 @@ gsap.to("#main", {
 gsap.to(".bat", {
   scrollTrigger: {
     scrub: true,
+    pin: true,
+    pinSpacing: true,
     markers: true,
-    start: "top 0%",
+    start: "top 10%",
     end: "bottom 100%",
     trigger: "#anim",
     onUpdate: (e) => {
@@ -185,11 +187,4 @@ gsap.to(".bat", {
       }
     },
   },
-});
-
-window.addEventListener("scroll", function () {
-  window.clearTimeout(temps);
-  temps = setTimeout(function () {
-    body.classList.remove("is-scrolling");
-  }, 250);
 });
