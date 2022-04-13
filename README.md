@@ -20,6 +20,6 @@ https://codepen.io/Champire/pen/gOoeWjr </br>
 https://codepen.io/Champire/pen/jOYzBbj </br>
 
 Michael Simard </br>
-[Idle](https://codepen.io/micha-l-simard/pen/zYpJbjR) </br>
-[Scroll UP](https://codepen.io/micha-l-simard/pen/mdpGgJJ) </br>
-[Scroll DOWN](https://codepen.io/micha-l-simard/pen/oNpPONR) </br>
+[Code Pen-Idle](https://codepen.io/micha-l-simard/pen/zYpJbjR) </br>
+[Code Pen-Scroll UP](https://codepen.io/micha-l-simard/pen/mdpGgJJ) </br>
+[Code Pen-Scroll DOWN](https://codepen.io/micha-l-simard/pen/oNpPONR) </br>
