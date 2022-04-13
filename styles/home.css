@@ -162,10 +162,26 @@ footer {
 
 }
 
-.spritesheet {
+.idle {
   width: 400px;
   height: 400px;
   background-image: url(https://raw.githubusercontent.com/MichaelSimardVaudry/michael-eloise-penelope-megazord/TP05_animation_section_scrollTrigger/img/idle.png); 
+  margin: 5px auto;
+  animation-name: stop;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(24);
+}
+
+@keyframes stop {
+  from { background-position: 0 0; }
+  to { background-position: 0 -9650px ; }
+}
+
+.up {
+  width: 400px;
+  height: 400px;
+  background-image: url(https://raw.githubusercontent.com/MichaelSimardVaudry/michael-eloise-penelope-megazord/TP05_animation_section_scrollTrigger/img/avancer.png); 
   margin: 5px auto;
   animation-name: avancer;
   animation-duration: 1s;
@@ -174,6 +190,22 @@ footer {
 }
 
 @keyframes avancer {
+  from { background-position: 0 0; }
+  to { background-position: 0 -9650px ; }
+}
+
+.down {
+  width: 400px;
+  height: 400px;
+  background-image: url(https://raw.githubusercontent.com/MichaelSimardVaudry/michael-eloise-penelope-megazord/TP05_animation_section_scrollTrigger/img/reculer.png); 
+  margin: 5px auto;
+  animation-name: recule;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(24);
+}
+
+@keyframes recule {
   from { background-position: 0 0; }
   to { background-position: 0 -9650px ; }
 }

@@ -38,3 +38,38 @@ gsap.timeline({
       },
     })
       .from('.no3', { x: '100%' })
+      
+      const bat = document.querySelector(".idle");
+      const main = document.querySelector("#main");
+      let temps;
+      
+      gsap.to("#anim", {
+        scrollTrigger: {
+          trigger: "#anim",
+          scrub: 0.25,
+          onUpdate: (e) => {
+            bat.classList.add("is-scrolling");
+          },
+        },
+      });
+      gsap.to(".idle", {
+        scrollTrigger: {
+          scrub: true,
+          pin: true,
+          pinSpacing: true,
+          markers: true,
+          start: "top 10%",
+          end: "bottom 100%",
+          trigger: "#anim",
+          onUpdate: (e) => {
+            if (e.direction == 1) {
+              bat.classList.remove("up");
+              bat.classList.add("down");
+            } else {
+              bat.classList.remove("down");
+              bat.classList.add("up");
+            }
+          },
+        },
+      });
+
