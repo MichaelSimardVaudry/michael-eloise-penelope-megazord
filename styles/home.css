@@ -175,7 +175,7 @@ footer {
 
 @keyframes stop {
   from { background-position: 0 0; }
-  to { background-position: 0 -9650px ; }
+  to { background-position: 0 -10080px ; }
 }
 
 .up {
@@ -191,7 +191,7 @@ footer {
 
 @keyframes avancer {
   from { background-position: 0 0; }
-  to { background-position: 0 -9650px ; }
+  to { background-position: 0 -10080px ; }
 }
 
 .down {
@@ -207,5 +207,5 @@ footer {
 
 @keyframes recule {
   from { background-position: 0 0; }
-  to { background-position: 0 -9650px ; }
+  to { background-position: 0 -10080px ; }
 }
