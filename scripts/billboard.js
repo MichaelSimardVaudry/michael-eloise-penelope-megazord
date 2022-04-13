@@ -27,12 +27,12 @@ gsap.to('.no1', {
 
 
 const parapuie = document.querySelector('.parapuie');
-const main = document.querySelector('#main');
+const anim = document.querySelector('#anim');
 let temps;
 
-gsap.to('#main', {
+gsap.to('#anim', {
   scrollTrigger: {
-    trigger: '#main',
+    trigger: '#anim',
     scrub: 0.25,
     onUpdate: (e) => {
       parapuie.classList.add("is-scrolling");
@@ -42,10 +42,12 @@ gsap.to('#main', {
 gsap.to(".parapuie", {
   scrollTrigger: {
     scrub: true,
+    pin:true,
+    pinSpacing: true,
     markers: true,
     start: "top 0%",
     end: "bottom 100%",
-    trigger: "#main",
+    trigger: "#anim",
     onUpdate: (e) => {
       if (e.direction == 1) {
         parapuie.classList.remove("haut");

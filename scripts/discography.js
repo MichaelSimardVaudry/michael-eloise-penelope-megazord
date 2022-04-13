@@ -162,7 +162,6 @@ let temps;
 gsap.to("#anim", {
   scrollTrigger: {
     trigger: "#anim",
-    scrub: 0.25,
     onUpdate: (e) => {
       bat.classList.add("is-scrolling");
     },
@@ -187,4 +186,11 @@ gsap.to(".bat", {
       }
     },
   },
+});
+window.addEventListener("scroll", function () {
+  window.clearTimeout(temps);
+  temps = setTimeout(function () {
+    bat.classList.remove("down");
+    bat.classList.remove("up");
+  }, 250);
 });
