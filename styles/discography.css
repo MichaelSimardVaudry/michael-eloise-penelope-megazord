@@ -112,3 +112,54 @@ h2:nth-last-child(1) {
   background-color: var(--lightRed);
   color: white;
 }
+#anim {
+  max-width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+}
+#anim .bat {
+  object-fit: contain;
+}
+.bat {
+  padding: 10%;
+  max-width: 400px;
+  height: 400px;
+  background-image: url("../img/bat_spritesheet.png");
+  background-position: 0 0;
+  position: sticky;
+}
+
+.bat.idle {
+  background-image: url("../img/bat_spritesheet.png");
+  animation-name: idle;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(24);
+}
+
+@keyframes idle {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 -9600px;
+  }
+}
+@keyframes up {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 -9600px;
+  }
+}
+
+@keyframes down {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 -9600px;
+  }
+}

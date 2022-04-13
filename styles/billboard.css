@@ -1,48 +1,55 @@
-
-
-@media screen and (min-width: 1000px),(orientation: landscape),(min-aspect-ratio: 16/9){ }
-@media (max-width: 600px) { 
-    .section { width: 100%; } 
+@media screen and (min-width: 1000px),
+  (orientation: landscape),
+  (min-aspect-ratio: 16/9) {
+}
+@media (max-width: 600px) {
+  .section {
+    width: 100%;
   }
+}
 
-h2 {font-family: 'Rowdies', cursive; }
-.titre {font-family: 'IM Fell English SC', serif;}
-h2 {font-family: 'Rowdies', cursive; }
+h2 {
+  font-family: "Rowdies", cursive;
+}
+.titre {
+  font-family: "IM Fell English SC", serif;
+}
+h2 {
+  font-family: "Rowdies", cursive;
+}
 
 /*début hero*/
 .titre {
-  font-family: 'IM Fell English SC', serif;
-font-size:xx-large;
+  font-family: "IM Fell English SC", serif;
+  font-size: xx-large;
 }
-.hero  {
+.hero {
   position: relative;
   overflow: hidden;
   width: 100vw;
   height: 100vh;
-} 
-@media screen and (orientation: landscape) { 
-  .hero{
+}
+@media screen and (orientation: landscape) {
+  .hero {
     height: 56.25vw;
-  } 
+  }
 }
- .hero .heropic{
-  height: 100%;  
+.hero .heropic {
+  height: 100%;
   width: 100vh;
-  background-size: auto
-  
+  background-size: auto;
 }
-.heropic img{
- 
+.heropic img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: 45% 0%;
 }
-.heropic source{
+.heropic source {
   position: relative;
   width: 100%;
   object-fit: cover;
-  display:block;
+  display: block;
 }
 .coverHero {
   position: absolute;
@@ -63,10 +70,9 @@ font-size:xx-large;
 }*/
 /*Fin section hero */
 
-
 /*Début navigation*/
-.navbar{
-background-color:var(--mediumRed);
+.navbar {
+  background-color: var(--mediumRed);
 }
 
 .logo {
@@ -74,28 +80,27 @@ background-color:var(--mediumRed);
 }
 /*Fin navigation*/
 
-
 /*Début footer*/
-footer { 
- padding:20px;
-  margin-top:20px; 
-  background-color:var(--darkGrey);
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  background-color: var(--darkGrey);
 }
-.nom{
+.nom {
   outline: none;
-  text-decoration:var(--darkDark);
-  color: var(--darkDark); 
+  text-decoration: var(--darkDark);
+  color: var(--darkDark);
 }
-.nom:hover{
+.nom:hover {
   outline: none;
-  color:var(--darkRed);
+  color: var(--darkRed);
 }
-.photo{
+.photo {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
- /*.btn {
+/*.btn {
 
    color: black;
  }
@@ -107,9 +112,9 @@ footer {
 /*fin footer*/
 
 /*début main*/
-.card{
-margin: 10px 0px;
-padding: 0%;
+.card {
+  margin: 10px 0px;
+  padding: 0%;
 }
 
 .card .img {
@@ -117,109 +122,113 @@ padding: 0%;
   height: 100%;
   object-fit: cover;
 }
-.card-header{
+.card-header {
   background-color: var(--lightRed);
   color: var(--lightgrey);
-  }
-.Vidéoclips{
-  background-color:none;
-  }
-  .Vidéo{
-    background-color:none;
-    
-    }
+}
+.Vidéoclips {
+  background-color: none;
+}
+.Vidéo {
+  background-color: none;
+}
 .img {
   height: 100%;
   width: 100%;
   box-sizing: border-box;
-    }
-    .video-container {
-      display: flex;
-      justify-content: flex-end;
-      position: relative;
-      width: 100%;
-      padding-bottom: 56.25%;
-    
-    }
-    .video {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      border: 0;
-    }
+}
+.video-container {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+}
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
 
-    .swiper{
-      width: 100vw;
-      height: 300px;
-      
-      } 
-      .swiper img{
-      width:100%;
-      height: 100%;
-       object-fit: cover;
-      }
-      :root {
-        --swiper-navigation-color: var(--lightRed);
-       
-        } 
-        #anim {
-            max-width:100%;
-            height:100vh;
-             box-sizing: border-box;
-             display: flex;
-           }
-           #anim .parapuie{
-             object-fit: contain;
-           }
-        .parapuie{
-         padding: 10% ;
-        max-width: 400px;
-         height: 400px;
-         background-image: url('../img/idle.png');
-          background-position: 0 0;
-          position: sticky;
-          
-        }
+.swiper {
+  width: 100vw;
+  height: 300px;
+}
+.swiper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+:root {
+  --swiper-navigation-color: var(--lightRed);
+}
+#anim {
+  max-width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+}
+#anim .parapuie {
+  object-fit: contain;
+}
+.parapuie {
+  padding: 10%;
+  max-width: 400px;
+  height: 400px;
+  background-image: url("../img/idle.png");
+  background-position: 0 0;
+  position: sticky;
+}
 
-        .parapuie.bas{
-          
-           background-image: url('../img/avancer.png');
-           animation-name: bas;
-          animation-duration:1s;
-          animation-iteration-count: infinite;
-          animation-timing-function: steps(24);
-         }
-         .parapuie.haut{
-           background-image: url('../img/reculer.png');
-           animation-name: haut;
-          animation-duration: 1s;
-          animation-iteration-count: infinite;
-          animation-timing-function: steps(24);
-         }
-         .parapuie.idel{
-           background-image: url('../img/idle.png');
-           animation-name: idel;
-          animation-duration: 1s;
-          animation-iteration-count: infinite;
-          animation-timing-function: steps(24);
-          }
-        
-        
-        @keyframes idle {
-          from { background-position: 0 0; }
-          to { background-position: 0 -9600px; }
-        }
-        @keyframes haut {
-          from { background-position: 0 0; }
-          to { background-position: 0 -9600px; }
-        }
-        
-        @keyframes bas {
-          from { background-position: 0 0; }
-          to { background-position: 0 -9600px; }
-        }
-        
-    
-    /*fin main*/
+.parapuie.bas {
+  background-image: url("../img/avancer.png");
+  animation-name: bas;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(24);
+}
+.parapuie.haut {
+  background-image: url("../img/reculer.png");
+  animation-name: haut;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(24);
+}
+.parapuie.idel {
+  background-image: url("../img/idle.png");
+  animation-name: idle;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(24);
+}
+
+@keyframes idle {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 -9600px;
+  }
+}
+@keyframes haut {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 -9600px;
+  }
+}
+
+@keyframes bas {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 -9600px;
+  }
+}
+
+/*fin main*/

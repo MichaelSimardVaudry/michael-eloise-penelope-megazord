@@ -154,3 +154,35 @@ gsap.from(".animTitle", {
   rotate: "360",
   duration: 2,
 });
+
+const parapuie = document.querySelector(".parapuie");
+const main = document.querySelector("#main");
+let temps;
+
+gsap.to("#main", {
+  scrollTrigger: {
+    trigger: "#main",
+    scrub: 0.25,
+    onUpdate: (e) => {
+      parapuie.classList.add("is-scrolling");
+    },
+  },
+});
+gsap.to(".bat", {
+  scrollTrigger: {
+    scrub: true,
+    markers: true,
+    start: "top 0%",
+    end: "bottom 100%",
+    trigger: "#anim",
+    onUpdate: (e) => {
+      if (e.direction == 1) {
+        parapuie.classList.remove("up");
+        parapuie.classList.add("down");
+      } else {
+        parapuie.classList.remove("down");
+        parapuie.classList.add("up");
+      }
+    },
+  },
+});
