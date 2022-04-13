@@ -165,15 +165,7 @@ footer {
 :root {
   --swiper-navigation-color: var(--lightRed);
 }
-/*#anim {
-  max-width: 100%;
-  height: 100vh;
-  box-sizing: border-box;
-  display: flex;
-}
-#anim .parapuie {
-  object-fit: contain;
-}*/
+
 .parapuie {
   
   max-width: 400px;
