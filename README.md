@@ -25,6 +25,6 @@ Michael Simard</br>
 
 
 Eloise Gagne </br>
-[idle] (https://codepen.io/Paracoco/pen/OJzvmPJ)</br>
-[up] (https://codepen.io/Paracoco/pen/yLpKgbG)</br>
-[down] (https://codepen.io/Paracoco/pen/abEYWbY)</br>
+[idle](https://codepen.io/Paracoco/pen/OJzvmPJ)</br>
+[up](https://codepen.io/Paracoco/pen/yLpKgbG)</br>
+[down](https://codepen.io/Paracoco/pen/abEYWbY)</br>
