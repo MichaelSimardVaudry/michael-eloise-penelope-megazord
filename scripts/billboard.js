@@ -14,37 +14,32 @@ myModal.addEventListener('shown.bs.modal', function () {
 });*/
 gsap.registerPlugin(ScrollTrigger);
 
-gsap.to('.no1', {
-  
+gsap.to(".no1", {
   scrollTrigger: {
-    trigger: '.no1',
+    trigger: ".no1",
   },
-  markers:true,
-  rotation: '360%',
+  rotation: "360%",
   duration: 2,
 });
 
-
-
-const parapuie = document.querySelector('.parapuie');
-const anim = document.querySelector('#anim');
+const parapuie = document.querySelector(".parapuie");
+const anim = document.querySelector("#anim");
 let temps;
 
-gsap.to('#anim', {
+gsap.to("#anim", {
   scrollTrigger: {
-    trigger: '#anim',
+    trigger: "#anim",
     scrub: 0.25,
     onUpdate: (e) => {
       parapuie.classList.add("is-scrolling");
-    }
-  }
+    },
+  },
 });
 gsap.to(".parapuie", {
   scrollTrigger: {
     scrub: true,
-    pin:true,
+    pin: true,
     pinSpacing: true,
-    markers: true,
     start: "top 0%",
     end: "bottom 100%",
     trigger: "#anim",
@@ -53,14 +48,13 @@ gsap.to(".parapuie", {
         parapuie.classList.remove("haut");
         parapuie.classList.remove("idel");
         parapuie.classList.add("bas");
-        
       } else {
         parapuie.classList.remove("bas");
         parapuie.classList.remove("idel");
         parapuie.classList.add("haut");
       }
-    }
-  }
+    },
+  },
 });
 window.addEventListener("scroll", function () {
   window.clearTimeout(temps);

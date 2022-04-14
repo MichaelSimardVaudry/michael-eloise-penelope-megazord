@@ -172,7 +172,6 @@ gsap.to(".bat", {
     scrub: true,
     pin: true,
     pinSpacing: true,
-    markers: true,
     start: "top 10%",
     end: "bottom 100%",
     trigger: "#anim",
