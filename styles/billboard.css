@@ -165,16 +165,12 @@ footer {
 :root {
   --swiper-navigation-color: var(--lightRed);
 }
-.parapuie div{
-  background-position: 50% 50%;
-}
 
 .parapuie {
   max-width: 400px;
   height: 400px;
   background-image: url("../img/idle.png");
   background-position: 0% 0%;
-  
 }
 
 .parapuie.bas {
