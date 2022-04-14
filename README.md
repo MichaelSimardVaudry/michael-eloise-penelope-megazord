@@ -19,9 +19,9 @@ https://codepen.io/Champire/pen/gOoeWjr</br>
 https://codepen.io/Champire/pen/jOYzBbj</br>
 
 Michael Simard</br>
-[Idle](https://codepen.io/micha-l-simard/pen/zYpJbjR) </br>
-[Scroll UP](https://codepen.io/micha-l-simard/pen/mdpGgJJ)</br>
-[Scroll DOWN](https://codepen.io/micha-l-simard/pen/oNpPONR)</br>
+[codepen-Idle](https://codepen.io/micha-l-simard/pen/zYpJbjR) </br>
+[codepen-Scroll UP](https://codepen.io/micha-l-simard/pen/mdpGgJJ)</br>
+[codepen-Scroll DOWN](https://codepen.io/micha-l-simard/pen/oNpPONR)</br>
 
 
 Eloise Gagne </br>
