@@ -12,19 +12,19 @@ Pénélope Morrisson VERT🟢
 
 [coolors](https://coolors.co/0c1618-004643-faf4d3-d1ac00-f6be9a)
 
-Animations Sprite sheet
-Pénélope Morrisson
-https://codepen.io/Champire/pen/yLpKbxv
-https://codepen.io/Champire/pen/gOoeWjr
-https://codepen.io/Champire/pen/jOYzBbj
+Animations Sprite sheet</br>
+Pénélope Morrisson</br>
+https://codepen.io/Champire/pen/yLpKbxv</br>
+https://codepen.io/Champire/pen/gOoeWjr</br>
+https://codepen.io/Champire/pen/jOYzBbj</br>
 
-Michael Simard
-[Idle](https://codepen.io/micha-l-simard/pen/zYpJbjR)
-[Scroll UP](https://codepen.io/micha-l-simard/pen/mdpGgJJ)
-[Scroll DOWN](https://codepen.io/micha-l-simard/pen/oNpPONR)
+Michael Simard</br>
+[codepen-Idle](https://codepen.io/micha-l-simard/pen/zYpJbjR) </br>
+[codepen-Scroll UP](https://codepen.io/micha-l-simard/pen/mdpGgJJ)</br>
+[codepen-Scroll DOWN](https://codepen.io/micha-l-simard/pen/oNpPONR)</br>
 
 
-Eloise Gagne 
-[idle] https://codepen.io/Paracoco/pen/OJzvmPJ
-[up] https://codepen.io/Paracoco/pen/yLpKgbG
-[down] https://codepen.io/Paracoco/pen/abEYWbY
+Eloise Gagne </br>
+[idle](https://codepen.io/Paracoco/pen/OJzvmPJ)</br>
+[up](https://codepen.io/Paracoco/pen/yLpKgbG)</br>
+[down](https://codepen.io/Paracoco/pen/abEYWbY)</br>
