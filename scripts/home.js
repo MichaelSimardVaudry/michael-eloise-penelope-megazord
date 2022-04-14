@@ -3,7 +3,7 @@
         el: ".swiper-pagination",
     },
 });*/
-/*
+
 gsap.registerPlugin(ScrollTrigger);
 
 gsap.timeline({
@@ -38,43 +38,45 @@ gsap.timeline({
       },
     })
       .from('.no3', { x: '100%' })
-      */
-const idle = document.querySelector(".idle");
-const main = document.querySelector("#main");
-let temps;
+      
 
-gsap.to("#anim", {
-  scrollTrigger: {
-    trigger: "#anim",
-    scrub: 0.25,
-    onUpdate: (e) => {
-      idle.classList.add("is-scrolling");
-    },
-  },
-});
-gsap.to(".idle", {
-  scrollTrigger: {
-    scrub: true,
-    pin: true,
-    pinSpacing: true,
-    start: "top 10%",
-    end: "bottom 100%",
-    trigger: "#anim",
-    onUpdate: (e) => {
-      if (e.direction == 1) {
-        idle.classList.remove("up");
-        idle.classList.add("down");
-      } else {
-        idle.classList.remove("down");
-        idle.classList.add("up");
-      }
-    },
-  },
-});
-window.addEventListener("scroll", function () {
-  window.clearTimeout(temps);
-  temps = setTimeout(function () {
-    idle.classList.remove("down");
-    idle.classList.remove("up");
-  }, 250);
-});
+      const idle = document.querySelector(".idle");
+      const main = document.querySelector("#main");
+      let temps;
+      
+      gsap.to("#anim", {
+        scrollTrigger: {
+          trigger: "#anim",
+          scrub: 0.25,
+          onUpdate: (e) => {
+            idle.classList.add("is-scrolling");
+          },
+        },
+      });
+      gsap.to(".idle", {
+        scrollTrigger: {
+          scrub: true,
+          pin: true,
+          pinSpacing: true,
+          start: "top 10%",
+          end: "bottom 100%",
+          trigger: "#anim",
+          onUpdate: (e) => {
+            if (e.direction == 1) {
+              idle.classList.remove("up");
+              idle.classList.add("down");
+            } else {
+              idle.classList.remove("down");
+              idle.classList.add("up");
+            }
+          },
+        },
+      });
+      window.addEventListener("scroll", function () {
+        window.clearTimeout(temps);
+        temps = setTimeout(function () {
+          idle.classList.remove("down");
+          idle.classList.remove("up");
+        }, 250);
+      });
+

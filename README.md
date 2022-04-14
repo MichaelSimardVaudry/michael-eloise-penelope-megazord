@@ -18,7 +18,13 @@ https://codepen.io/Champire/pen/yLpKbxv
 https://codepen.io/Champire/pen/gOoeWjr
 https://codepen.io/Champire/pen/jOYzBbj
 
-Michael Simard </br>
-[Code Pen-Idle](https://codepen.io/micha-l-simard/pen/zYpJbjR) </br>
-[Code Pen-Scroll UP](https://codepen.io/micha-l-simard/pen/mdpGgJJ) </br>
-[Code Pen-Scroll DOWN](https://codepen.io/micha-l-simard/pen/oNpPONR) </br>
+Michael Simard
+[Idle](https://codepen.io/micha-l-simard/pen/zYpJbjR)
+[Scroll UP](https://codepen.io/micha-l-simard/pen/mdpGgJJ)
+[Scroll DOWN](https://codepen.io/micha-l-simard/pen/oNpPONR)
+
+
+Eloise Gagne 
+[idle] https://codepen.io/Paracoco/pen/OJzvmPJ
+[up] https://codepen.io/Paracoco/pen/yLpKgbG
+[down] https://codepen.io/Paracoco/pen/abEYWbY
