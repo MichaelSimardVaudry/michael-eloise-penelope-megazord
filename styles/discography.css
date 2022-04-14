@@ -98,6 +98,9 @@ main .card {
     clear: both;
   }
 }
+#anim {
+  padding: 0 0 0 0;
+}
 .video_ {
   aspect-ratio: 16/9;
   width: 100%;
