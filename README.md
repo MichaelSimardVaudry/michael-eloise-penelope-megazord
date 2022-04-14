@@ -22,3 +22,9 @@ Michael Simard
 [Idle](https://codepen.io/micha-l-simard/pen/zYpJbjR)
 [Scroll UP](https://codepen.io/micha-l-simard/pen/mdpGgJJ)
 [Scroll DOWN](https://codepen.io/micha-l-simard/pen/oNpPONR)
+
+
+Eloise Gagne 
+[idle] https://codepen.io/Paracoco/pen/OJzvmPJ
+[up] https://codepen.io/Paracoco/pen/yLpKgbG
+[down] https://codepen.io/Paracoco/pen/abEYWbY

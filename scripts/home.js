@@ -3,7 +3,7 @@
         el: ".swiper-pagination",
     },
 });*/
-/*
+
 gsap.registerPlugin(ScrollTrigger);
 
 gsap.timeline({
@@ -38,7 +38,8 @@ gsap.timeline({
       },
     })
       .from('.no3', { x: '100%' })
-      */
+      
+
       const idle = document.querySelector(".idle");
       const main = document.querySelector("#main");
       let temps;
@@ -57,7 +58,6 @@ gsap.timeline({
           scrub: true,
           pin: true,
           pinSpacing: true,
-          markers: true,
           start: "top 10%",
           end: "bottom 100%",
           trigger: "#anim",
