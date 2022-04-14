@@ -18,7 +18,7 @@ https://codepen.io/Champire/pen/yLpKbxv
 https://codepen.io/Champire/pen/gOoeWjr
 https://codepen.io/Champire/pen/jOYzBbj
 
-Michael Simard
-[Idle](https://codepen.io/micha-l-simard/pen/zYpJbjR)
-[Scroll UP](https://codepen.io/micha-l-simard/pen/mdpGgJJ)
-[Scroll DOWN](https://codepen.io/micha-l-simard/pen/oNpPONR)
+Michael Simard </br>
+[Code Pen-Idle](https://codepen.io/micha-l-simard/pen/zYpJbjR) </br>
+[Code Pen-Scroll UP](https://codepen.io/micha-l-simard/pen/mdpGgJJ) </br>
+[Code Pen-Scroll DOWN](https://codepen.io/micha-l-simard/pen/oNpPONR) </br>
