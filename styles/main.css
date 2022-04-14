@@ -1,31 +1,51 @@
 @font-face {
-  src: url("/styles/font/TheMedic-Regular.ttf") format("truetype");
-  font-family: "TheMedic";
+  font-family: "fontStyle";
+  src: url("/font/TheMedic-Regular.ttf") format("truetype");
+  src: url("/font/TheMedic-Regular.otf") format("opentype");
+  src: url("/font/TheMedic-Regular.woff2") format("woff2");
+  src: url("/font/RiseUp-ngxJ.ttf") format("truetype");
 }
 
 :root {
-  --Blackblue: #0c1618;
-  --greenBlue: #004643;
-  --milk: #faf4d3;
-  --gold: #d1ac00;
-  --pink: #f6be9a;
-  --textnormal:font-family: "Sorts Mill Goudy", serif;;
-  --textstyle:font-family: "TheMedic";;
+  --darkDark: #0b090a;
+  --lightDark: #161a1d;
+  --darkRed: #66072f;
+  --mediumDarkRed: #a41635;
+  --mediumRed: #ba1849;
+  --lightRed:#e53855;
+  --darkGrey:#b1a7a6;
+  --mediumgrey:#d3d3d3;
+  --lightgrey:#f5f3f4;
+  --textnormal:font-family: "Sorts Mill Goudy", serif;
+  --textstyle:font-family: "fontStyle";
 }
 
 body{
   font-size: 20px;
+  background-color: var(--lightgrey); 
+  background:
+    radial-gradient(var(--darkRed) 3px, transparent 4px),
+    radial-gradient(var(--lightRed) 3px, transparent 4px),
+    linear-gradient(var(--lightgrey) 4px, transparent 0),
+    linear-gradient(45deg, transparent 74px, transparent 75px, var(--mediumgrey) 75px, var(--mediumgrey) 76px, transparent 77px, transparent 109px),
+    linear-gradient(-45deg, transparent 75px, transparent 76px, var(--mediumgrey) 76px, var(--mediumgrey) 77px, transparent 78px, transparent 109px),
+    var(--lightgrey);
+    background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
 }
 body h1{
   font-family: var(--textstyle);
+  color: var(--lightgrey);
   font-size: 25px;
 }
 body h2{
   font-family: var(--textnormal);
+  color: var(--mediumgrey);
   font-size: 20px;
 }
 body h3{
   font-family: var(--textnormal);
+  color: var(--darkgrey);
   font-size: 20px;
 }
 

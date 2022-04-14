@@ -1,0 +1,226 @@
+@media screen and (min-width: 1000px),
+  (orientation: landscape),
+  (min-aspect-ratio: 16/9) {
+}
+@media (max-width: 600px) {
+  .section {
+    width: 100%;
+  }
+}
+
+h2 {
+  font-family: "Rowdies", cursive;
+}
+.titre {
+  font-family: "IM Fell English SC", serif;
+}
+h2 {
+  font-family: "Rowdies", cursive;
+}
+
+/*début hero*/
+.titre {
+  font-family: "IM Fell English SC", serif;
+  font-size: xx-large;
+}
+.hero {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+@media screen and (orientation: landscape) {
+  .hero {
+    height: 56.25vw;
+  }
+}
+.hero .heropic {
+  height: 100%;
+  width: 100vh;
+  background-size: auto;
+}
+.heropic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 45% 0%;
+}
+.heropic source {
+  position: relative;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+.coverHero {
+  position: absolute;
+  top: 0;
+  background-image: linear-gradient(var(--darkDark), var(--lightRed));
+  opacity: 70%;
+  height: 100%;
+  width: 100%;
+}
+.textHero {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 10px;
+}
+/*.btn-info{
+  background-color:#a4161a;
+}*/
+/*Fin section hero */
+
+/*Début navigation*/
+.navbar {
+  background-color: var(--mediumRed);
+}
+
+.logo {
+  width: 50px;
+}
+/*Fin navigation*/
+
+/*Début footer*/
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  background-color: var(--darkGrey);
+}
+.nom {
+  outline: none;
+  text-decoration: var(--darkDark);
+  color: var(--darkDark);
+}
+.nom:hover {
+  outline: none;
+  color: var(--darkRed);
+}
+.photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*.btn {
+
+   color: black;
+ }
+
+ .btn:hover{
+  background-color:#f5f3f4;
+  color: rgb(110, 110, 110);
+}*/
+/*fin footer*/
+
+/*début main*/
+.card {
+  margin: 10px 0px;
+  padding: 0%;
+}
+
+.card .img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card-header {
+  background-color: var(--lightRed);
+  color: var(--lightgrey);
+}
+.Vidéoclips {
+  background-color: none;
+}
+.Vidéo {
+  background-color: none;
+}
+.img {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+.video-container {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+}
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.swiper {
+  width: 100vw;
+  height: 300px;
+}
+.swiper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+:root {
+  --swiper-navigation-color: var(--lightRed);
+}
+
+
+ .parapuie {
+  width: 400px;
+  height: 400px;
+  background-image: url("../img/idle.png");
+  background-position: 0 0;
+  position: fixed;
+}
+
+.parapuie.bas {
+  background-image: url("../img/avancer.png");
+  animation-name: bas;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(24);
+}
+.parapuie.haut {
+  background-image: url("../img/reculer.png");
+  animation-name: haut;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(24);
+}
+.parapuie.idel {
+  background-image: url("../img/idle.png");
+  animation-name: idle;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(24);
+}
+
+@keyframes idle {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 -10080px;
+  }
+}
+@keyframes haut {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 -10080px;
+  }
+}
+
+@keyframes bas {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 -10080px;
+  }
+}
+
+/*fin main*/

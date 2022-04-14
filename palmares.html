@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,28 +18,286 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-      crossorigin="anonymous"
-    ></script>
-
-    <script src="scripts/discography.js"></script>
-    <script src="scripts/home.js"></script>
-    <script src="scripts/main.js"></script>
-    <link rel="stylesheet" type="text/css" href="styles/discography.css" />
-    <link rel="stylesheet" type="text/css" href="styles/home.css" />
+   
+   
     <link rel="stylesheet" type="text/css" href="styles/main.css" />
+    <link rel="stylesheet" type="text/css" href="styles/billboard.css" />
+  
+    <link
+      href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Rowdies:wght@300&display=swap"
+      rel="stylesheet"
+    />
+   
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
+  
+
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body></body>
-</html>
+  <body>
+    <section class="hero">
+      <picture class="heropic">
+        <source srcset="img/groupe_orange_mono.png" media="(prefers-color-scheme:dark)">
+        <img src="img/groupe_orange_portrait.png">
+      </picture>
+      <div class="coverHero"></div> 
+      <article class="textHero">
+        <h1 class="titre">Palmarès</h1>
+        <h2>Bring Me the Horizon, parfois abrégé BMTH, est un groupe de metal britannique, originaire de Sheffield. Il est devenu au fil des années une figure emblématique de la scène post-hardcore et rock en général.</h2>
+        <a class="btn btn-dark" href="#main">En savoir plus</a>
+      </article> 
+    </section>
+    <nav class="navbar navbar-dark sticky-top navbar-expand-sm">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img class="logo" src="img/logo_blanc.svg" alt="">
+        </a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Affichage/masquage de la navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="mainNav" class="collapse navbar-collapse">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="index.html">Accueil</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="discographie.html">Discographie</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link active" href="palmares.html" tabindex="-1" aria-disabled="true">Palmarès</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav> 
+    <main > 
+      <div id="main" class="container">
+        <div class="row justify-content-start">
+          <div id='anim' class="d-none d-md-block col-md-3">
+             
+            <div  class="parapuie"  alt=""></div>
+ 
+          </div>
+           <section class="col-12 col-md-9 ">
+              <h3 class="Vidéoclips">Vidéoclips</h3>
+              <section class="timeline no1">
+                <div class="card"> 
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <a href="https://www.youtube.com/watch?v=QJJYpsA5tv8">
+                      <img src="img/sempiternal.jpg" class="img">
+                      </a>
+                    </div>
+                    <div class="col-sm-8">
+                      <div class="card-header">Can you feel my heart</div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Album: Sempiternal</li>
+                        <li class="list-group-item">Année: 2013</li>
+                        <li class="list-group-item">Temps: 3:54</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <section class="timeline n02">
+                <div class="card"> 
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <a href="https://www.youtube.com/watch?v=BpmJh2CjSIA&list=RDicXUkIfZxyg&index=5">
+                      <img src="img/thats-the-spirit.jpg" class="img">
+                      </a>
+                    </div>
+                    <div class="col-sm-8">
+                      <div class="card-header">True Friend</div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Album: That's the Spirit</li>
+                        <li class="list-group-item">Année: 2015</li>
+                        <li class="list-group-item">Temps: 3:53</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                </section>
+                <section class="timeline n03">
+                  <div class="card"> 
+                    <div class="row">
+                      <div class="col-sm-4">
+                        <a href="https://www.youtube.com/watch?v=AWggPLXeOkU">
+                        <img src="img/bmth-there-is-a-hell.jpg" class="img">
+                        </a>
+                      </div>
+                      <div class="col-sm-8">      
+                        <div class="card-header">Pray for Plagues</div>
+                          <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Album: There Is a Hell, Believe Me I've Seen It. There Is a Heaven, Let's Keep It a Secret.</li>
+                            <li class="list-group-item">Année: 2006</li>
+                            <li class="list-group-item">Temps: 4:21</li>
+                          </ul>
+                        </div>
+                      </div>
+                  </div>
+                </section>
+                <section class="timeline n04">
+                <div class="card"> 
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <a href="https://www.youtube.com/watch?v=xDn7KXCp7Rg">
+                      <img src="img/suicide_season.jpg" class="img">
+                      </a>
+                    </div>
+                    <div class="col-sm-8">
+                      <div class="card-header">Sleep with one eye open</div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Album: Suicide season</li>
+                        <li class="list-group-item">Année: 2008</li>
+                        <li class="list-group-item">Temps: 4:16</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </section>
+                <section  title="vidéo">
+                  <div class="container">
+                    <div class="row">
+                      <h3 class="Vidéo">Vidéo</h3>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div class="row">
+                      <div class="video-container">
+                        <iframe  class="video" src="https://www.youtube.com/embed/6AVRCQBc59w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <section title="performances">
+                  <div class="container">
+                    <div class="row">
+                      <h3 class="performances">Performances</h3>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div class="row">
+                      <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                              <img src="img/chanteur_scene.jpg">
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="img/chanteur.jpg">
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="img/chanteur_scene_bleu_1.jpg">
+                          </div>
+                           <div class="swiper-slide">
+                             <img src="img/chanteur_scene_bleu.jpg">
+                           </div>   
+                           <div class="swiper-slide">
+                            <img src="img/chanteur_scene_vert.jpg">
+                          </div> 
+                          <div class="swiper-slide">
+                            <img src="img/chanteur_scene_vert_1.jpg">
+                          </div> 
+                        </div> 
+                          <div class="swiper-button-next "></div>
+                          <div class="swiper-button-prev"></div>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+            </section>
+        </div>    
+      </div>
+    </main>
+    
+    <footer class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-lg-6 text-center text-lg-start">
+          <a class='nom' href="#ModalPen"  data-bs-toggle="modal">Pénélope Morrisson</a>
+          <div class="modal fade" id="ModalPen" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h2 class="modal-title" id="exampleModalLabel">Pénélope Morrisson</h2>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img class="photo" src="img/Penelope_bebe.png" alt="" width="300" >
+                </div>
+              </div>
+            </div>
+          </div>
+          </br>
+          <a class='nom' href="#ModalElo" data-bs-toggle="modal">Éloise Gagné</a>
+          <div class="modal fade" id="ModalElo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h2 class="modal-title" id="exampleModalLabel">Éloise Gagné</h2>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img class="photo" src="img/Eloise_bebe.png" alt="" width="300" >
+                </div>
+              </div>
+            </div>
+          </div>
+          </br>
+            <a class='nom'href="#ModalMic" data-bs-toggle="modal">Michael Simard </a>
+            <div class="modal fade" id="ModalMic" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h2 class="modal-title" id="exampleModalLabel">Michael Simard</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img class="photo" src="img/Michael_bebe.png" alt="" width="300" >
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="row text-center text-lg-end">
+            <div class="col-12">
+                <a class="btn btn-outline-dark" href="https://github.com/Penelope-M/michael-eloise-penelope-megazord.git">Lien GitHub</a>
+            </div>
+            <div class="col-12 text-lg-end">
+              ©2022
+            </div>
+          </div>
+        </div>   
+      </div>
+    </footer>
 
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script> var swiper = new Swiper(".mySwiper", {
+      direction:'horizontal',
+      loop:true,
+      slidesPerView:1,
+      breakpoints:{
+      992:{
+        slidesPerView:2,
+        spaceBetween:20,
+      },  
+      },
+      navigation:{
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev", 
+      },
+    });
+
+    </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js" integrity="sha512-kVlGhj2qFy+KBCFuvjBJTGUMxbdqJKs4yK2jh0e0VPhWUPiPC87bzm4THmaaIee3Oj7j6sDpTTgm2EPPiESqBg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/ScrollTrigger.min.js" integrity="sha512-mwNAdRfAgTFw7sywUyp8aLsHQN5qHd6PIX2K8zIbJLjGw0DyKriCK3sSs9IphpRqsNRvyRlP3HtbFtJIUofHJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="scripts/billboard.js"></script>
+<script src="scripts/main.js"></script>
+  </body>
+</html>

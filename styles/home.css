@@ -1,0 +1,211 @@
+@media screen and (orientation: landscape) {
+  .hero {
+    position: relative;
+    width: 100%;
+    height: 56.25vw;
+  }
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+ 
+}
+.hero {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+.hero img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: 45% 0%;
+}
+
+.contraste {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: darkred;
+  opacity: 20%;
+}
+
+.hero .container-fluid {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.hero .row {
+  height: 100%;
+  color: white;
+}
+
+.title {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.btn_more {
+  position: absolute;
+  background-color: #f44336;
+  border-radius: 500px;
+  opacity: 85%;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-top: 10px;
+  left: 45%;
+}
+
+.btn_more {
+  background-color: darkred;
+  color: white;
+  border: 2px solid white;
+}
+
+.btn_more:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+.navbar {
+  background-color: var(--mediumRed);
+}
+
+.logo {
+  width: 50px;
+}
+
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  background-color: var(--darkGrey);
+}
+
+.card {
+  background-color: var(--lightDark);
+  margin: 10px 0 10px 0;
+
+}
+
+.card-img-top {
+  height: 20vh;
+  object-fit: cover;
+}
+
+.btn-outline-danger {
+  width: 100%;
+}
+
+.band-title {
+  color: black;
+}
+
+.band {
+  color:white;
+  font-size: 20px;
+}
+
+.nom{
+  outline: none;
+  text-decoration: none;
+  color: var(--darkDark);
+
+}
+
+.nom:hover{
+  outline: none;
+  color: var(--darkRed)
+}
+
+.photo{
+  display: block;
+}
+
+.modal-title {
+  color: var(--darkDark)
+}
+
+.promo {
+  color: black;
+}
+
+.video_texte {
+  color: black;
+}
+
+.video {
+  aspect-ratio: 16/9;
+  width: 100%;
+}
+
+.img {
+  width: 250px;
+  background-image: url(avancer.png) ;
+  animation-name: marche;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(24);
+
+}
+
+.idle {
+  width: 400px;
+  height: 400px;
+  background-image: url(https://raw.githubusercontent.com/MichaelSimardVaudry/michael-eloise-penelope-megazord/TP05_animation_section_scrollTrigger/img/idle.png); 
+  margin: 5px auto;
+  animation-name: stop;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(24);
+}
+
+@keyframes stop {
+  from { background-position: 0 0; }
+  to { background-position: 0 -10080px ; }
+}
+
+.up {
+  width: 400px;
+  height: 400px;
+  background-image: url(https://raw.githubusercontent.com/MichaelSimardVaudry/michael-eloise-penelope-megazord/TP05_animation_section_scrollTrigger/img/avancer.png); 
+  margin: 5px auto;
+  animation-name: avancer;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(24);
+}
+
+@keyframes avancer {
+  from { background-position: 0 0; }
+  to { background-position: 0 -10080px ; }
+}
+
+.down {
+  width: 400px;
+  height: 400px;
+  background-image: url(https://raw.githubusercontent.com/MichaelSimardVaudry/michael-eloise-penelope-megazord/TP05_animation_section_scrollTrigger/img/reculer.png); 
+  margin: 5px auto;
+  animation-name: recule;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(24);
+}
+
+@keyframes recule {
+  from { background-position: 0 0; }
+  to { background-position: 0 -10080px ; }
+}
