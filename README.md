@@ -28,3 +28,6 @@ Eloise Gagne </br>
 [idle](https://codepen.io/Paracoco/pen/OJzvmPJ)</br>
 [up](https://codepen.io/Paracoco/pen/yLpKgbG)</br>
 [down](https://codepen.io/Paracoco/pen/abEYWbY)</br>
+
+
+##[lien de la page](https://michaelsimardvaudry.github.io/michael-eloise-penelope-megazord/)</br>
