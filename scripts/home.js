@@ -81,9 +81,11 @@ gsap.timeline({
       });
 
 const apiURL = "https://api.lyrics.ovh/v1/"
-const input = document.querySelector("#input")
-const results = document.querySelector("#results")
-const lyrics = document.querySelector("#lyrics")
+const input = document.getElementById("input")
+const results = document.getElementById("results")
+const lyrics = document.getElementById("lyrics")
+
+
 
 const newLineToBr = function(str){ 
   return str.replace(/(?:\r\n|\r|\n)/g, '<br>');
