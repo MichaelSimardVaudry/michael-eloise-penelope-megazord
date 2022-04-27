@@ -1,3 +1,7 @@
+var APIUrl = "https://api.lyrics.ovh/v1/Bring%20Me%20the%20Horizon/";
+var input = document.querySelector("#songInput");
+var lyricsDiv = document.querySelector("#parolesChanson");
+
 gsap.registerPlugin(ScrollTrigger);
 gsap.from(".n01", {
   scrollTrigger: {

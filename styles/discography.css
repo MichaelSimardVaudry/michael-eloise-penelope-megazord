@@ -166,3 +166,11 @@ h2:nth-last-child(1) {
     background-position: 0 -9840px;
   }
 }
+.paroles {
+  padding: 20px 60px;
+  background-color: white;
+}
+.titre {
+  background-color: var(--lightRed);
+  color: white;
+}
