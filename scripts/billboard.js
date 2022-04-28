@@ -64,3 +64,10 @@ window.addEventListener("scroll", function () {
     parapuie.classList.add("idel");
   }, 250);
 });
+
+const parole = document.querySelector('#parole');
+const btn = document.querySelector('.btn');
+
+btn.addEventListener('click', function() {
+  
+})
