@@ -66,8 +66,8 @@ window.addEventListener("scroll", function () {
 });
 
 const parole = document.querySelector('#parole');
-const btn = document.querySelector('.btn');
+const btnR = document.querySelector('.btnRecherche');
 
-btn.addEventListener('click', function() {
+btnR.addEventListener('click', function() {
   
 })
