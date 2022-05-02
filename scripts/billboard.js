@@ -69,7 +69,7 @@ const parole = document.querySelector('#parole');
 const btnR = document.querySelector('.btnRecherche');
 const output = document.querySelector('.output');
 btnR.addEventListener('click', function(event) {
-  if (parole.value = undefined) {
+  if (parole.value== undefined) {
     output.innerText = parole.value;
   } else {
     event.preventDefault();
@@ -78,6 +78,8 @@ btnR.addEventListener('click', function(event) {
 
 fetch(`https://api.lyrics.ovh/v1/bring%20me%20the%20horizon/${value}`)
 .then(response => response.json())
-.then(result => {this.getRandomPokemon(result.pokemon)});
+.then(result => {this.creerHtml(result.parole)});
+
 function creerHtml(parole) {
   let html = '';
+};
