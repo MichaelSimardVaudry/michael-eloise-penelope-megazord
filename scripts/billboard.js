@@ -67,18 +67,11 @@ window.addEventListener("scroll", function () {
 
 
 const parole = document.querySelector('#parole');
-let btnR = document.querySelector('.btnRecherche');
+let btnR = document.querySelector('.btnR');
 const output = document.querySelector('.output');
-btnR.addEventListener('click', function() {
-  output.innerHTML = parole.value;
-  //if (parole.value== undefined) {
-   
-  } //else {
-   // e.preventDefault();
- // }
-//console.log('YEEES')
-//});
-console.log('allo');
+btnR.addEventListener("click", function() {
+  
+  console.log('allo')
 });
 
 fetch(`https://api.lyrics.ovh/v1/bring%20me%20the%20horizon/${value}`)
