@@ -65,21 +65,27 @@ window.addEventListener("scroll", function () {
   }, 250);
 });
 
+
 const parole = document.querySelector('#parole');
-const btnR = document.querySelector('.btnRecherche');
+let btnR = document.querySelector('.btnRecherche');
 const output = document.querySelector('.output');
-btnR.addEventListener('click', function(event) {
-  if (parole.value== undefined) {
-    output.innerText = parole.value;
-  } else {
-    event.preventDefault();
-  }
+btnR.addEventListener('click', function() {
+  output.innerHTML = parole.value;
+  //if (parole.value== undefined) {
+   
+  } //else {
+   // e.preventDefault();
+ // }
+//console.log('YEEES')
+//});
+console.log('allo');
 });
 
 fetch(`https://api.lyrics.ovh/v1/bring%20me%20the%20horizon/${value}`)
 .then(response => response.json())
-.then(result => {this.creerHtml(result.parole)});
+.then(result => {this.creerHtml(result.chanson)});
 
-function creerHtml(parole) {
+function creerHtml(chanson) {
   let html = '';
+  let lyrics =chanson.value;
 };
