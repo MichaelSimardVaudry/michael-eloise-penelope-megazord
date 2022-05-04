@@ -167,18 +167,17 @@
                   <div class="row">
                     <h3 class="titre-inspire">Des paroles qui inspirent</h3>
                   </div>
-                
-                  <div class='parole'>
-                    <label for="parole">Parole</label><br>
-                      <input type="text" id="parole" placeholder="Titre d'une chanson" >
-                    <button type="submit" class='btnR'>Recherche</button>
-                  </div>
-                <div class="output">
-
-                </div >
-                </div>
-              
-              </section>
+                  <form class="form-floating">
+                    <input type="text" class="findtitre form-control" id="floatTitre" placeholder="Titre d'une chanson">
+                    <label for="floatTitre"></label>
+                    <input type="submit" class='btn btn-dark recherche' value="Rechercher">
+                    <div class="spinner-border spinner" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                    </div>
+                </form>
+                <div class="p-3 mb-2 bg-light paroles">
+                </div>                    
+            </section>
 
                 <section  title="vidéo">
                   <div class="container">
