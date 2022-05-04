@@ -1,6 +1,35 @@
-var APIUrl = "https://api.lyrics.ovh/v1/Bring%20Me%20the%20Horizon/";
-var input = document.querySelector("#songInput");
-var lyricsDiv = document.querySelector("#parolesChanson");
+let recherchebtn = document.querySelector(".recherche");
+let recherchetitre = document.querySelector(".findtitre");
+let spinner = document.querySelector(".spinner");
+let parolesdiv = document.querySelector(".paroles");
+
+const newLineToBr = function (str) {
+  return str.replace(/(?:\r\n|\r|\n)/g, "<br>");
+};
+
+recherchebtn.addEventListener("click", function (e) {
+  e.preventDefault();
+  spinner.style.display = "inline-block";
+
+  if (recherchetitre.value == "") {
+    recherchetitre.value = "Veuillez mettre le nom d'un titre ici";
+    spinner.style.display = "none";
+  } else {
+    fetch(
+      `https://api.lyrics.ovh/v1/bring me the horizon/${recherchetitre.value}`
+    )
+      .then((data) => data.json())
+      .then((actor) => {
+        const newParoles = newLineToBr(actor.lyrics);
+        spinner.style.display = "none";
+        parolesdiv.innerHTML = `<br><h2> Paroles de: ${recherchetitre.value} </h2><br> ${newParoles};`;
+      })
+      .catch((error) => {
+        spinner.style.display = "none";
+        parolesdiv.innerHTML = `Désolé, les paroles n'ont pu être trouvées. En voici la raison: ${error}`;
+      });
+  }
+});
 
 gsap.registerPlugin(ScrollTrigger);
 gsap.from(".n01", {

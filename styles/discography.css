@@ -170,7 +170,13 @@ h2:nth-last-child(1) {
   padding: 20px 60px;
   background-color: white;
 }
-.titre {
+.section_parole {
+  padding: 5px 10px;
   background-color: var(--lightRed);
   color: white;
+}
+.paroleRechercheBkg {
+  background-color: white;
+  border: var(--lightRed) solid;
+  border-radius: 5px;
 }

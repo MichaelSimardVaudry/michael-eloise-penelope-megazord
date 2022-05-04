@@ -102,14 +102,19 @@
                 <div class="row">
                   <div class="col">
                   </section>
-                  <section class="paroles">
-                    <h2 class="titre"> Des paroles qui inspirent</h2>
-                    <form>
-                      <input type="text" name="chanson" class="chanson" autofocus="autofocus" placeholder="Titre de la chanson" id="songInput" /> 
-                      <input class="btn btn-danger" type="submit" value="Rechercher">
+                  <section class="paroleRechercheBkg">
+                    <h2 class="section_parole">Des paroles qui inspirent</h2>
+                    <form class="form-floating">
+                        <input type="text" class="findtitre form-control" id="floatTitre" placeholder="Titre d'une chanson">
+                        <label for="floatTitre">Titre d'une chanson</label>
+                        <input type="submit" class='btn btn-outline-danger recherche' value="Rechercher">
+                        <div class="spinner-border spinner" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                        </div>
                     </form>
-                    <div id="parolesChanson" class="blocParole"></div>
-                  </section>
+                    <div class="paroles">
+                    </div>                    
+                </section>
                   <section class="timeline n01">
                     <!--Card Img Droit-->
                     <div class="card">
