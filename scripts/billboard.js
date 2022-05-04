@@ -71,6 +71,7 @@ let btnR = document.querySelector('.btnR');
 const output = document.querySelector('.output');
 btnR.addEventListener("click", function() {
   
+  
   console.log('allo')
 });
 
