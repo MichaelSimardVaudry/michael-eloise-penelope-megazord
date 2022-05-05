@@ -80,13 +80,35 @@ gsap.timeline({
         }, 250);
       });
 
-const apiURL = "https://api.lyrics.ovh/v1/"
-const input = document.getElementById("input")
-const results = document.getElementById("results")
-const lyrics = document.getElementById("lyrics")
-
-
-
-const newLineToBr = function(str){ 
-  return str.replace(/(?:\r\n|\r|\n)/g, '<br>');
-} 
+      let recherchebtn = document.querySelector(".recherche");
+      let recherchetitre = document.querySelector(".findtitre");
+      let spinner = document.querySelector(".spinner");
+      let parolesdiv = document.querySelector(".paroles");
+      
+      const newLineToBr = function (str) {
+        return str.replace(/(?:\r\n|\r|\n)/g, "<br>");
+      };
+      
+      recherchebtn.addEventListener("click", function (e) {
+        e.preventDefault();
+        spinner.style.display = "inline-block";
+      
+        if (recherchetitre.value == "") {
+          recherchetitre.value = "Veuillez mettre le nom d'un titre ici";
+          spinner.style.display = "none";
+        } else {
+          fetch(
+            `https://api.lyrics.ovh/v1/bring me the horizon/${recherchetitre.value}`
+          )
+            .then((data) => data.json())
+            .then((actor) => {
+              const newParoles = newLineToBr(actor.lyrics);
+              spinner.style.display = "none";
+              parolesdiv.innerHTML = `<br><h2> Paroles de: ${recherchetitre.value} </h2><br> ${newParoles};`;
+            })
+            .catch((error) => {
+              spinner.style.display = "none";
+              parolesdiv.innerHTML = `Désolé, les paroles n'ont pu être trouvées. En voici la raison: ${error}`;
+            });
+        }
+      });
