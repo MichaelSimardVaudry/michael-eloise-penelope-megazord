@@ -226,4 +226,17 @@ footer {
 label{
   display:none ;
 }
+.parole.inspire{
+ 
+  border-radius: 5px;
+  border : var(--lightRed) solid;
+}
+.recherche{
+ 
+  margin-top: 5px;
+}
+.spinner{
+ 
+ margin: 1px;
+}
 /*fin main*/
