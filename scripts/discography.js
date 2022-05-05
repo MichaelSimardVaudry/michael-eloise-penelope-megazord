@@ -1,7 +1,8 @@
 let recherchebtn = document.querySelector(".recherche");
 let recherchetitre = document.querySelector(".findtitre");
-let spinner = document.querySelector(".spinner");
 let parolesdiv = document.querySelector(".paroles");
+let spinner = document.querySelector(".spinner");
+
 
 const newLineToBr = function (str) {
   return str.replace(/(?:\r\n|\r|\n)/g, "<br>");
