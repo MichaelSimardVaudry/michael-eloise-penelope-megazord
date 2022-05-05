@@ -49,3 +49,19 @@ body h3{
   font-size: 20px;
 }
 
+.paroles {
+  padding: 20px 60px;
+  background-color: white;
+}
+.section_parole {
+  padding: 5px 10px;
+  background-color: var(--lightRed);
+  color: white;
+}
+.paroleRechercheBkg {
+  background-color: white;
+  border: var(--lightRed) solid;
+  border-radius: 5px;
+  margin: 20px;
+}
+

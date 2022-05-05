@@ -65,18 +65,6 @@
     </div>
   </div>
   </nav>
-  <section class="paroles">
-    <h3>Des paroles qui inspires</h3>
-    <div class="recherche">
-      <input type="text" name="song" class="recherche" autofocus="autofocus" placeholder="Titre de la chanson" id="input"/>
-      <ul class="results" id="results">
-
-      </ul>
-    </div>
-    <div class="lyrics hidden" id="lyrics">
-      
-    </div>
-  </section>
   <section class="timeline no1">
     <div class="container" id="main">
       <div class="row flex-row-reverse">
@@ -84,6 +72,19 @@
           <div class="idle"></div>
         </div>
         <div class="col-12 col-md-9">
+          <section class="paroleRechercheBkg">
+            <h2 class="section_parole">Des paroles qui inspirent</h2>
+            <form class="form-floating">
+                <input type="text" class="findtitre form-control" id="floatTitre" placeholder="Titre d'une chanson">
+                <label for="floatTitre">Titre d'une chanson</label>
+                <input type="submit" class='btn btn-outline-danger recherche' value="Rechercher">
+                <div class="spinner-border spinner text-danger" role="status">
+                <span class="visually-hidden">Loading...</span>
+                </div>
+            </form>
+            <div class="paroles">
+            </div>                    
+        </section>
         <section class="band">
           <div class="container">
             <h3 class="title justify-content-start band-title">Membres du groupe</h3>
