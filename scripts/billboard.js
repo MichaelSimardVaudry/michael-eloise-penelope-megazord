@@ -93,7 +93,7 @@ btnRecherche.addEventListener('click', function(e){
     .then(data => data.json()) 
     .then(actor => { 
       const newParoles = newLineToBr(actor.lyrics)
-      spinner.style.display = 'none'
+      spinner.style.display = 'none';
       parolesD.innerHTML = `<br><h2> Paroles de: ${findtitre.value} </h2><br> ${newParoles};`
     })
     .catch(error => {
