@@ -69,7 +69,7 @@ window.addEventListener("scroll", function () {
 let findtitre = document.querySelector('.findtitre');
 let btnRecherche =  document.querySelector('.recherche');
 let spinner = document.querySelector('.spinner');
-let paroles = document.querySelector('.paroles');
+let parolesD = document.querySelector('.paroles');
 
 /*Chansons :
 -Throne
@@ -77,7 +77,7 @@ let paroles = document.querySelector('.paroles');
 const newLineToBr = function(str) {
   return str.replace(/(?:\r\n|\r|\n)/g, '<br>');
 }
-spinner.style.display = 'none'
+spinner.style.display = 'none';
 btnRecherche.addEventListener('click', function(e){
   e.preventDefault();
   spinner.style.display = 'inline-block';
@@ -93,10 +93,10 @@ btnRecherche.addEventListener('click', function(e){
     .then(actor => { 
       const newParoles = newLineToBr(actor.lyrics)
       spinner.style.display = 'none'
-      paroles.innerHTML = `<br><h2> Paroles de: ${findtitre.value} </h2><br> ${newParoles};`
+      parolesD.innerHTML = `<br><h2> Paroles de: ${findtitre.value} </h2><br> ${newParoles};`
     })
     .catch(error => {
       spinner.style.display = 'none'
-      paroles.innerHTML = `Désolé, les paroles n'ont pu être trouvées. En voici la raison: ${error}`});
+      parolesD.innerHTML = `Désolé, les paroles n'ont pu être trouvées. En voici la raison: ${error}`});
   }
 })
