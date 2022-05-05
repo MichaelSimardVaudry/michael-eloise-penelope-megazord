@@ -67,16 +67,18 @@ window.addEventListener("scroll", function () {
 
 
 let findtitre = document.querySelector('.findtitre');
-let findbtn =  document.querySelector('.recherche');
+let btnRecherche =  document.querySelector('.recherche');
 let spinner = document.querySelector('.spinner');
-let parolesdiv = document.querySelector('.paroles');
+let paroles = document.querySelector('.paroles');
 
-
+/*Chansons :
+-Throne
+- Doomed*/
 const newLineToBr = function(str) {
   return str.replace(/(?:\r\n|\r|\n)/g, '<br>');
 }
-
-findbtn.addEventListener('click', function(e){
+spinner.style.display = 'none'
+btnRecherche.addEventListener('click', function(e){
   e.preventDefault();
   spinner.style.display = 'inline-block';
   
@@ -91,10 +93,10 @@ findbtn.addEventListener('click', function(e){
     .then(actor => { 
       const newParoles = newLineToBr(actor.lyrics)
       spinner.style.display = 'none'
-      parolesdiv.innerHTML = `<br><h2> Paroles de: ${findtitre.value} </h2><br> ${newParoles};`
+      paroles.innerHTML = `<br><h2> Paroles de: ${findtitre.value} </h2><br> ${newParoles};`
     })
     .catch(error => {
       spinner.style.display = 'none'
-      parolesdiv.innerHTML = `Désolé, les paroles n'ont pu être trouvées. En voici la raison: ${error}`});
+      paroles.innerHTML = `Désolé, les paroles n'ont pu être trouvées. En voici la raison: ${error}`});
   }
 })
