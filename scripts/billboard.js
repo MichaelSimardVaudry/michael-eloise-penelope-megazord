@@ -68,8 +68,9 @@ window.addEventListener("scroll", function () {
 
 let findtitre = document.querySelector('.findtitre');
 let btnRecherche =  document.querySelector('.recherche');
-let spinner = document.querySelector('.spinner');
 let parolesD = document.querySelector('.paroles');
+let spinner = document.querySelector('.spinner');
+
 
 /*Chansons :
 -Throne
