@@ -38,7 +38,6 @@ gsap.from(".n01", {
     end: "30% 30%",
     scrub: true,
     trigger: ".n01",
-    markers: true,
     toggleActions: "restart complete reverse reset",
   },
   x: "100%",
