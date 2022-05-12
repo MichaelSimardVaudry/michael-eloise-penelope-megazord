@@ -9,8 +9,9 @@ gsap.registerPlugin(ScrollTrigger);
 gsap.timeline({
   duration: 1,
   scrollTrigger: {
-    start: 'top 100%',
-    end: 'bottom 25%',
+    start: 'top 90%',
+    end: 'top 10%',
+    markers: true,
     toggleActions: 'restart complete reverse reset',
     trigger: '.no1',
   },
