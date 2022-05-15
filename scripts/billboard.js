@@ -109,8 +109,9 @@ window.addEventListener("scroll", function () {
 
 let findtitre = document.querySelector('.findtitre');
 let btnRecherche =  document.querySelector('.recherche');
-let spinner = document.querySelector('.spinner');
 let parolesD = document.querySelector('.paroles');
+let spinner = document.querySelector('.spinner');
+
 
 /*Chansons :
 -Throne
@@ -133,7 +134,7 @@ btnRecherche.addEventListener('click', function(e){
     .then(data => data.json()) 
     .then(actor => { 
       const newParoles = newLineToBr(actor.lyrics)
-      spinner.style.display = 'none'
+      spinner.style.display = 'none';
       parolesD.innerHTML = `<br><h2> Paroles de: ${findtitre.value} </h2><br> ${newParoles};`
     })
     .catch(error => {
