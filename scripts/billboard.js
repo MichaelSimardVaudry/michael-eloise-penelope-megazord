@@ -14,13 +14,54 @@ myModal.addEventListener('shown.bs.modal', function () {
 });*/
 gsap.registerPlugin(ScrollTrigger);
 
-gsap.to(".no1", {
+gsap.from(".no1", {
   scrollTrigger: {
+    start: "top 70%",
+    end: "bottom 30%",
     trigger: ".no1",
+    toggleActions: "restart complete reverse reset",
   },
   rotation: "360%",
-  duration: 2,
+  duration: 1,
 });
+gsap.from(".n02", {
+  scrollTrigger: {
+    start: "top 70%",
+    end: "bottom 30%",
+    trigger: ".n02",
+    toggleActions: "restart complete reverse reset",
+  },
+  rotation: "360%",
+  duration: 1,
+});
+gsap.from(".n03", {
+  scrollTrigger: {
+    start: "top 70%",
+    end: "bottom 30%",
+    trigger: ".n03",
+    toggleActions: "restart complete reverse reset",
+  },
+  rotation: "360%",
+  duration: 1,
+});
+gsap.from(".n04", {
+  scrollTrigger: {
+    start: "top 70%",
+    end: "bottom 30%",
+    trigger: ".n04",
+    toggleActions: "restart complete reverse reset",
+  },
+  rotation: "360%",
+  duration: 1,
+});
+
+
+
+
+
+
+
+
 
 const parapuie = document.querySelector(".parapuie");
 const anim = document.querySelector("#anim");
