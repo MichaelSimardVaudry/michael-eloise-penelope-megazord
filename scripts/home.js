@@ -89,7 +89,7 @@ gsap.timeline({
       const newLineToBr = function (str) {
         return str.replace(/(?:\r\n|\r|\n)/g, "<br>");
       };
-      
+      spinner.style.display = 'none';
       recherchebtn.addEventListener("click", function (e) {
         e.preventDefault();
         spinner.style.display = "inline-block";
